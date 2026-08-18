@@ -4,5 +4,30 @@
  "title": "Quantifying-Language-Disparities-in-Multilingual-Large-Langu",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-08-13 14:56:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1e49bbf4-5f8e-4cec-a7f2-a9b5edaedb70.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1e49bbf4-5f8e-4cec-a7f2-a9b5edaedb70.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:33:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言评估",
+    "语言差异量化",
+    "公平性评估",
+    "线性混合效应模型",
+    "性能实现比",
+    "低资源语言"
+   ],
+   "field": "多语言自然语言处理与公平性评估",
+   "innovations": [
+    "提出基于线性混合效应模型的解耦评估框架，分离语言/任务/模型效应",
+    "定义PRR、CV-PRR和Language Potential三个可解释指标，实现跨语言公平性的标准化度量"
+   ],
+   "benchmarks": [
+    "MEGA",
+    "XTREME-R",
+    "M5"
+   ]
+  }
+ }
 }

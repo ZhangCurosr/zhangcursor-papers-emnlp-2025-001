@@ -4,5 +4,30 @@
  "title": "Read-to-Hear-A-Zero-Shot-Pronunciation-Assessment-Using-Text",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-13 14:56:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7f3d6261-b4a2-486f-8986-a1748b651bf7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7f3d6261-b4a2-486f-8986-a1748b651bf7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:34:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "发音评估",
+    "零样本学习",
+    "大语言模型",
+    "文本化声学特征",
+    "可解释AI",
+    "语音识别"
+   ],
+   "field": "自动发音评估与语言学习AI",
+   "innovations": [
+    "提出TextPA零样本框架，将语音转为文本化声学描述输入LLM进行评分",
+    "引入IPA Match Scoring通过Smith-Waterman比对精化准确性评分",
+    "证明文本视角与声学视角互补，融合后显著提升MultiPA基准"
+   ],
+   "benchmarks": [
+    "Speechocean762",
+    "MultiPA"
+   ]
+  }
+ }
 }

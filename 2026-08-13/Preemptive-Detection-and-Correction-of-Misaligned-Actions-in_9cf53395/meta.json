@@ -4,5 +4,32 @@
  "title": "Preemptive-Detection-and-Correction-of-Misaligned-Actions-in",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-13 14:55:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3534ec61-eef2-43aa-9177-41cbbbb03841.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3534ec61-eef2-43aa-9177-41cbbbb03841.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:32:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Theory of Mind",
+    "LLM Agent",
+    "misalignment detection",
+    "belief reasoning",
+    "human-agent collaboration",
+    "agent safety"
+   ],
+   "field": "LLM Agent Trustworthiness",
+   "innovations": [
+    "首次将LLM心智理论信念推理应用于Agent关键操作预错检测",
+    "提出两阶段任务验证机制（完成对齐+进度评估）以区分中间步骤与最终目标偏移",
+    "构建InferAct-Actor-User协同工作流实现检测与纠正闭环"
+   ],
+   "benchmarks": [
+    "WebShop",
+    "HotPotQA",
+    "ALFWorld",
+    "R-Judge"
+   ]
+  }
+ }
 }

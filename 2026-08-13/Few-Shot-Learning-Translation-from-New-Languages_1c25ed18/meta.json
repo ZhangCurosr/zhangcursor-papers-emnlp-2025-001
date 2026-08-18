@@ -4,5 +4,30 @@
  "title": "Few-Shot-Learning-Translation-from-New-Languages",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2f0cedc7-9e5f-4144-b3b2-24f86732b5b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2f0cedc7-9e5f-4144-b3b2-24f86732b5b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:28:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "few-shot translation",
+    "low-resource machine translation",
+    "word embeddings",
+    "cross-lingual transfer",
+    "incremental learning",
+    "multilingual NMT"
+   ],
+   "field": "低资源机器翻译",
+   "innovations": [
+    "系统量化了词表示学习的数据需求，证明500句平行+31250句单语可达15+ BLEU",
+    "揭示公开多语言语料库（MADLAD/CulturaX/HPLT）存在模板重复句等质量问题导致尾部语言失败",
+    "提出nn-accuracy作为词嵌入训练质量的代理验证指标，与BLEU呈0.974相关"
+   ],
+   "benchmarks": [
+    "Flores-101 devtest",
+    "Tatoeba challenge v2023-09-26"
+   ]
+  }
+ }
 }

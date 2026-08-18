@@ -4,5 +4,33 @@
  "title": "FANS-Formal-Answer-Selection-for-LLM-Natural-Language-Math-R",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a3c9ed32-3983-46e9-8b76-e15f772f2b2f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a3c9ed32-3983-46e9-8b76-e15f772f2b2f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:28:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Lean4",
+    "formal verification",
+    "answer selection",
+    "math reasoning",
+    "Long-CoT",
+    "NL-to-FL translation",
+    "test-time scaling"
+   ],
+   "field": "大语言模型数学推理与形式化验证",
+   "innovations": [
+    "首次提出利用Lean4形式化验证增强LLM自然语言数学答案选择的FANS框架",
+    "提出Long-CoT迁移学习方法训练NL-to-FL翻译器（无Long-CoT标注数据训练、推理时激活）",
+    "设计形式化验证与奖励模型/多数投票正交组合的可组合答案选择机制"
+   ],
+   "benchmarks": [
+    "MATH500",
+    "AMC23",
+    "Minerva Math",
+    "Olympiad Bench"
+   ]
+  }
+ }
 }

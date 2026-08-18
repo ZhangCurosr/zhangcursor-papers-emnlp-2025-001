@@ -4,5 +4,29 @@
  "title": "MEBench-Benchmarking-Large-Language-Models-for-Cross-Documen",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2577fd7c-1c18-4a25-a3e0-296e28b0c1b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2577fd7c-1c18-4a25-a3e0-296e28b0c1b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:29:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨文档问答",
+    "多实体推理",
+    "基准测试",
+    "检索增强生成",
+    "大语言模型评估",
+    "实体密度"
+   ],
+   "field": "信息检索与自然语言处理",
+   "innovations": [
+    "提出MEBench基准评估LLMs在跨文档多实体问答中的检索整合推理能力",
+    "引入EA-F1指标实现实体-属性-值三元组级细粒度评估",
+    "设计模板驱动与程序化答案生成相结合的自动化基准构建流水线"
+   ],
+   "benchmarks": [
+    "MEBench"
+   ]
+  }
+ }
 }

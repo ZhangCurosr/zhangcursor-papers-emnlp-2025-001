@@ -4,5 +4,29 @@
  "title": "NUTMEG-Separating-Signal-From-Noise-in-Annotator-Disagreemen",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 07:12:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e25bfa34-ddc6-421b-ab4e-590bb1873f6d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e25bfa34-ddc6-421b-ab4e-590bb1873f6d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:31:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "annotator disagreement",
+    "crowdsourcing",
+    "Bayesian aggregation",
+    "learning from disagreement",
+    "subjective NLP"
+   ],
+   "field": "标注质量与主观NLP建模",
+   "innovations": [
+    "提出NUTMEG贝叶斯模型，在去噪同时保留子群系统性分歧",
+    "在合成与真实数据上验证其相比传统聚合与全量学习的优势",
+    "开放代码与合成数据生成器，提供可直接复用的子群聚合工具"
+   ],
+   "benchmarks": [
+    "POPQUORN (offensiveness/politeness)",
+    "Synthetic annotations with controlled divisiveness and spam rates"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Learning-from-Diverse-Reasoning-Paths-with-Routing-and-Colla",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d847bcd2-8a29-4a70-9986-1da605983f38.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d847bcd2-8a29-4a70-9986-1da605983f38.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:29:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识蒸馏",
+    "多推理路径",
+    "条件路由",
+    "大语言模型",
+    "学生协作",
+    "Chain-of-Thought"
+   ],
+   "field": "大语言模型知识蒸馏",
+   "innovations": [
+    "质量过滤+条件路由+互助学生蒸馏三阶段协作蒸馏框架",
+    "Gumbel-Softmax 可微分流路由实现路径到学生的动态适配",
+    "多学生软集成表征互蒸馏以弥补单一学生推理风格盲区"
+   ],
+   "benchmarks": [
+    "SQA",
+    "ARC-Challenge",
+    "MATH",
+    "ANLI",
+    "Date"
+   ]
+  }
+ }
 }

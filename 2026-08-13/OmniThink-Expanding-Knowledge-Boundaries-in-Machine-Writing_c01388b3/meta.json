@@ -4,5 +4,32 @@
  "title": "OmniThink-Expanding-Knowledge-Boundaries-in-Machine-Writing",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 07:11:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5d149341-481a-4199-b037-fc060153c3b5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5d149341-481a-4199-b037-fc060153c3b5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:31:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机器写作",
+    "长文本生成",
+    "检索增强生成",
+    "知识密度",
+    "慢思考",
+    "信息树",
+    "概念池"
+   ],
+   "field": "长文本生成与机器写作",
+   "innovations": [
+    "提出OmniThink框架，通过Information Tree和Conceptual Pool模拟人类慢思考过程扩展知识边界",
+    "提出Knowledge Density指标量化文章有效信息占比，填补冗余度评估空白",
+    "从Information Boundary和Cognition Boundary两维诊断长文生成瓶颈"
+   ],
+   "benchmarks": [
+    "WildSeek",
+    "Prometheus-2自动评估",
+    "Factscore原子知识分解"
+   ]
+  }
+ }
 }

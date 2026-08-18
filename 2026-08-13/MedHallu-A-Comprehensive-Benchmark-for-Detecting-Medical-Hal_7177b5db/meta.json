@@ -4,5 +4,30 @@
  "title": "MedHallu-A-Comprehensive-Benchmark-for-Detecting-Medical-Hal",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c9afdb25-7536-4f9f-811b-00d54bb340c1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c9afdb25-7536-4f9f-811b-00d54bb340c1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:30:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "医疗幻觉检测",
+    "大语言模型",
+    "基准测试",
+    "PubMedQA",
+    "双向蕴含",
+    "不确定性"
+   ],
+   "field": "医疗NLP与AI安全",
+   "innovations": [
+    "提出首个医疗幻觉检测综合基准MedHallu，包含10,000个受控生成样本与难度分级",
+    "揭示难检幻觉与地面真实值在语义空间上更接近，并通过双向蕴含聚类验证一致性",
+    "证明提供领域知识及引入'不确定'类别可显著提升通用LLM的医疗幻觉检测精度"
+   ],
+   "benchmarks": [
+    "MedHallu",
+    "PubMedQA"
+   ]
+  }
+ }
 }

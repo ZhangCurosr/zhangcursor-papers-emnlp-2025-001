@@ -4,5 +4,34 @@
  "title": "SAE-SSV-Supervised-Steering-in-Sparse-Representation-Spaces",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 14:56:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f61e9109-1489-4879-9ec7-18e70dfe6395.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f61e9109-1489-4879-9ec7-18e70dfe6395.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:35:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM steering",
+    "sparse autoencoder",
+    "activation steering",
+    "mechanistic interpretability",
+    "controllable generation",
+    "SAE",
+    "representation engineering"
+   ],
+   "field": "大语言模型可控生成与机制可解释性",
+   "innovations": [
+    "在 SAE 稀疏解耦空间中通过有监督探针筛选构建低维 steering 子空间",
+    "多探针集成与 F-statistic 双阶段特征选择以实现稳定可复现的方向识别",
+    "在子空间内联合优化对齐损失、LM 退化损失与 L1 稀疏正则"
+   ],
+   "benchmarks": [
+    "Sentiment movie review (GPT-4o-mini generated, 10k)",
+    "TruthGen factual/hallucinated pairs",
+    "TwinViews-13k political polarity",
+    "Rotten Tomatoes",
+    "TruthfulQA"
+   ]
+  }
+ }
 }

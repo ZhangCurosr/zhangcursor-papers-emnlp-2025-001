@@ -4,5 +4,39 @@
  "title": "RAG-Instruct-Boosting-LLMs-with-Diverse-Retrieval-Augmented",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-08-13 14:56:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1db08721-a61c-48fd-bcf3-5c642b602ea4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1db08721-a61c-48fd-bcf3-5c642b602ea4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:33:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RAG",
+    "instruction tuning",
+    "synthetic data",
+    "retrieval-augmented generation",
+    "multi-hop QA",
+    "data synthesis"
+   ],
+   "field": "检索增强生成（RAG）与指令微调",
+   "innovations": [
+    "定义五类RAG范式系统性覆盖查询-文档关系",
+    "提出指令模拟技术利用现有指令数据集增强合成数据多样性",
+    "构建首个覆盖多样化RAG场景与任务的40K开源指令数据集"
+   ],
+   "benchmarks": [
+    "TriviaQA",
+    "HotpotQA",
+    "Musique",
+    "2WikiMultiHopQA",
+    "ARC-Challenge",
+    "PopQA",
+    "WebQA",
+    "OBQA",
+    "PubHealth",
+    "CFQA",
+    "PubMedQA"
+   ]
+  }
+ }
 }

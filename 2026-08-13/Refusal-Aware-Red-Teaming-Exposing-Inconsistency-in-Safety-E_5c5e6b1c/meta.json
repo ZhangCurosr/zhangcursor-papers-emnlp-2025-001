@@ -4,5 +4,32 @@
  "title": "Refusal-Aware-Red-Teaming-Exposing-Inconsistency-in-Safety-E",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-13 14:55:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8e9e3a0e-1d92-4896-89cc-3999517ca0a1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8e9e3a0e-1d92-4896-89cc-3999517ca0a1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:34:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "red teaming",
+    "LLM safety",
+    "refusal gap",
+    "reinforcement learning",
+    "curiosity-driven exploration",
+    "safety evaluation"
+   ],
+   "field": "大语言模型安全评估",
+   "innovations": [
+    "首次将refusal gap形式化为可量化的red teaming优化目标",
+    "提出基于hidden states的refusal probe机制识别内部拒绝行为",
+    "设计层次化好奇心驱动机制同时优化refusal gap与测试用例多样性"
+   ],
+   "benchmarks": [
+    "WildJailbreak",
+    "HARMBench",
+    "ADV-BENCH",
+    "MaliciousInstruct"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "MovieCORE-COgnitive-REasoning-in-Movies",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/979a4fac-53dd-4c22-a4ee-fcb2e81e92cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/979a4fac-53dd-4c22-a4ee-fcb2e81e92cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:30:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Question Answering",
+    "System-2 Reasoning",
+    "Multi-Agent Annotation",
+    "Movie Understanding",
+    "Vision-Language Model"
+   ],
+   "field": "视频理解与推理",
+   "innovations": [
+    "提出首个面向System-2思维的 movie VQA 数据集 MovieCORE",
+    "设计多智能体协作迭代标注流程生成高质量深层推理QA对",
+    "提出无训练开销的 ACE 推理增强模块，通过轻量LLM重排序提升VLM性能25%"
+   ],
+   "benchmarks": [
+    "MovieCORE",
+    "MovieChat-1k",
+    "EgoSchema",
+    "MVBench"
+   ]
+  }
+ }
 }

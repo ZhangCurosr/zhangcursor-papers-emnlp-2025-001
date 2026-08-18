@@ -4,5 +4,31 @@
  "title": "RBPtool-A-Deep-Language-Model-Framework-for-Multi-Resolution",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 14:56:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e5ada358-bb51-4ecb-84f3-aac1b598ed8e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e5ada358-bb51-4ecb-84f3-aac1b598ed8e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:33:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RBP-RNA binding prediction",
+    "multi-resolution prediction",
+    "geometric deep learning",
+    "RNA design",
+    "language model",
+    "GVP-GNN"
+   ],
+   "field": "计算生物学/RNA-蛋白相互作用",
+   "innovations": [
+    "多分辨率统一框架：序列/残基/原子三级预测共享底层表征",
+    "GPE+LPE双通道模式提取器结合全局长程依赖与局部motif识别",
+    "条件化RNA生成模块支持蛋白/细胞类型/物种多约束设计"
+   ],
+   "benchmarks": [
+    "CLIP",
+    "RNAcompete",
+    "RPI15223"
+   ]
+  }
+ }
 }

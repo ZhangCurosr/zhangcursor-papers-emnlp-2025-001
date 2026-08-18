@@ -4,5 +4,37 @@
  "title": "RAVEN-Query-Guided-Representation-Alignment-for-Question-Ans",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-08-13 14:57:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/60b92858-071d-4d52-9629-835c97a94d3d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/60b92858-071d-4d52-9629-835c97a94d3d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:33:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态问答",
+    "跨模态融合",
+    "传感器感知",
+    "查询条件化对齐",
+    "LLM-as-judge",
+    "三阶段训练",
+    "IMU"
+   ],
+   "field": "多模态大语言模型",
+   "innovations": [
+    "QuART 查询条件化 token 级相关性门控模块，替代等权融合",
+    "三阶段训练：单模态预训练→查询对齐融合→模态失配鲁棒微调",
+    "AVS-QA：首个 300K 规模同步 Audio-Video-Sensor QA 基准"
+   ],
+   "benchmarks": [
+    "AVSD",
+    "MUSIC-QA",
+    "AVSSD",
+    "MSVD-QA",
+    "MSRVTT-QA",
+    "ActivityNet-QA",
+    "EgoThink",
+    "AVS-QA"
+   ]
+  }
+ }
 }

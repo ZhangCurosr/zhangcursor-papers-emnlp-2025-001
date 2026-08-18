@@ -4,5 +4,32 @@
  "title": "MemeReaCon-Probing-Contextual-Meme-Understanding-in-Large-Vi",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/76fbba6b-68a3-4262-9dfd-baa5340a46cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/76fbba6b-68a3-4262-9dfd-baa5340a46cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:29:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Meme Understanding",
+    "Vision-Language Models",
+    "Contextual Reasoning",
+    "Multimodal Benchmark",
+    "Social Media Analysis"
+   ],
+   "field": "多模态社会计算与模因理解",
+   "innovations": [
+    "首个保留完整帖子上下文的模因理解基准 MemeReaCon",
+    "提出 Context Explain Meme/Meme Enhance Context 两类关系模式并设计四层递进式评估任务",
+    "揭示 LVLMs 在跨模态整合与不一致情感推理中存在显著 Context-Affection Gap"
+   ],
+   "benchmarks": [
+    "MemeReaCon",
+    "Hateful Memes Challenge",
+    "HatReD",
+    "MemeIntent",
+    "MultiOFF"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "PBI-Attack-Prior-Guided-Bimodal-Interactive-Black-Box-Jailbr",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 07:11:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b1adbe21-bbd5-486b-ba1d-c6de127bdbe8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b1adbe21-bbd5-486b-ba1d-c6de127bdbe8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:32:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "jailbreak attack",
+    "large vision-language models",
+    "black-box attack",
+    "adversarial attacks",
+    "multimodal security",
+    "toxicity maximization",
+    "red teaming"
+   ],
+   "field": "多模态大模型安全与越狱攻击",
+   "innovations": [
+    "先验引导：用替代LVLM从有害语料提取恶意特征嵌入图像作为黑盒攻击先验",
+    "双向交互优化：交替贪婪搜索优化图像扰动和文本后缀实现双模态联合越狱",
+    "黑盒毒性最大化：仅需黑盒查询和toxicity score即可驱动高效越狱，无需模型梯度"
+   ],
+   "benchmarks": [
+    "AdvBench",
+    "HADES"
+   ]
+  }
+ }
 }

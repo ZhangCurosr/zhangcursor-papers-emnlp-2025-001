@@ -4,5 +4,31 @@
  "title": "On-Relation-Specific-Neurons-in-Large-Language-Models",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-13 07:11:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8ad2754f-46fd-41c4-8ac8-43c9165686e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8ad2754f-46fd-41c4-8ac8-43c9165686e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:32:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "relation-specific neurons",
+    "mechanistic interpretability",
+    "knowledge neurons",
+    "LLM interpretability",
+    "factual knowledge",
+    "neuron deactivation",
+    "multilingual neurons"
+   ],
+   "field": "大语言模型机制可解释性",
+   "innovations": [
+    "系统识别并验证关系特定神经元（RelSpec neurons）的存在",
+    "提出累加性、多功能性、干扰性三大神经元性质",
+    "设计实体解耦实验范式分离关系与实体效应"
+   ],
+   "benchmarks": [
+    "LRE factual knowledge dataset",
+    "Hernandez et al. (2024) relational facts"
+   ]
+  }
+ }
 }

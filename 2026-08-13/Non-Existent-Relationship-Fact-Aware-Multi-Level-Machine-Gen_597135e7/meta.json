@@ -4,5 +4,30 @@
  "title": "Non-Existent-Relationship-Fact-Aware-Multi-Level-Machine-Gen",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/47dc0557-cee2-4637-926d-3a0144034d2e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/47dc0557-cee2-4637-926d-3a0144034d2e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:33:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机器生成文本检测",
+    "事实性幻觉",
+    "实体图对比",
+    "多层级特征融合",
+    "门控机制",
+    "图神经网络"
+   ],
+   "field": "虚假信息检测",
+   "innovations": [
+    "首次将现实世界实体关系验证引入机器生成文本检测",
+    "层级化门控特征融合机制自适应调节多粒度信息"
+   ],
+   "benchmarks": [
+    "GROVER",
+    "GPT-2",
+    "SemEval-2024 Task 8"
+   ]
+  }
+ }
 }

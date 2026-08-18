@@ -4,5 +4,31 @@
  "title": "MPRF-Interpretable-Stance-Detection-through-Multi-Path-Reaso",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 07:11:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bf396a1d-8df0-4553-805d-ea3ca40756cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bf396a1d-8df0-4553-805d-ea3ca40756cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:29:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "stance detection",
+    "multi-path reasoning",
+    "interpretable AI",
+    "large language models",
+    "chain-of-thought",
+    "few-shot learning"
+   ],
+   "field": "立场检测与自然语言可解释推理",
+   "innovations": [
+    "提出生成-评估-优化-融合的多路径推理框架MPRF，突破单路径CoT局限",
+    "设计基于相关性/证据强度/逻辑一致性的LLM自动评分与弱路径重优化机制",
+    "引入得分驱动动态加权融合与多数投票策略提升预测稳健性与可解释性"
+   ],
+   "benchmarks": [
+    "SEM16",
+    "VAST",
+    "PStance"
+   ]
+  }
+ }
 }

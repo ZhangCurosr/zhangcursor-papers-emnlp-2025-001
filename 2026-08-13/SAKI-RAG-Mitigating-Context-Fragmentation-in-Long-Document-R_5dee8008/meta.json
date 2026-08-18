@@ -4,5 +4,34 @@
  "title": "SAKI-RAG-Mitigating-Context-Fragmentation-in-Long-Document-R",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-08-13 14:56:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/64681eaa-4df9-477f-9fa1-e0d264862f40.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/64681eaa-4df9-477f-9fa1-e0d264862f40.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:34:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RAG",
+    "长文档检索",
+    "注意力机制",
+    "句级建模",
+    "跨段落检索",
+    "信息效率"
+   ],
+   "field": "检索增强生成（RAG）与长文档理解",
+   "innovations": [
+    "基于 SLLM 句级自注意力构建 Chunk-Relation Model，显式建模跨段落语义关联",
+    "双轴检索策略：静态语义相似度召回 + 动态上下文扩展与 LLM 相关性过滤",
+    "以 IE（Recall × Precision）为核心指标，有效避免大 chunk 方法的冗余虚高问题"
+   ],
+   "benchmarks": [
+    "Dragonball",
+    "SQUAD",
+    "NFCORPUS",
+    "SCI-DOCS",
+    "HotpotQA",
+    "TriviaQA"
+   ]
+  }
+ }
 }

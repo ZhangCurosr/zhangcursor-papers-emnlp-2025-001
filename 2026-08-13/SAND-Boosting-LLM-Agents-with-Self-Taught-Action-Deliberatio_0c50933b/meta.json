@@ -4,5 +4,31 @@
  "title": "SAND-Boosting-LLM-Agents-with-Self-Taught-Action-Deliberatio",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-13 14:56:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3b494853-7310-4142-923d-711e6358dda9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3b494853-7310-4142-923d-711e6358dda9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:35:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "Self-Taught Learning",
+    "Action Deliberation",
+    "Supervised Fine-Tuning",
+    "ReAct",
+    "Interactive Environments"
+   ],
+   "field": "LLM Agent 微调与推理策略",
+   "innovations": [
+    "提出基于自一致性采样与执行引导批判的迭代审议微调框架",
+    "通过不一致性指示器动态决定何时进行动作审议以平衡计算与效果",
+    "用语言化批判积累跨实例通用常识以替代独立的步骤级奖励模型"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "ScienceWorld",
+    "WebShop"
+   ]
+  }
+ }
 }

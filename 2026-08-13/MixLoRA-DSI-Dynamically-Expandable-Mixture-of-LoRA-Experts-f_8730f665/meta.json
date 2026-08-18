@@ -4,5 +4,32 @@
  "title": "MixLoRA-DSI-Dynamically-Expandable-Mixture-of-LoRA-Experts-f",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 07:10:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/89abe4aa-b258-48e3-8cb7-959a673d30e2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/89abe4aa-b258-48e3-8cb7-959a673d30e2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:30:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "generative retrieval",
+    "continual learning",
+    "mixture of experts",
+    "LoRA",
+    "dynamic corpora",
+    "rehearsal-free",
+    "residual quantization"
+   ],
+   "field": "生成式检索与持续学习",
+   "innovations": [
+    "首个 OOD 驱动的动态扩展 PEFT 框架，实现无需重演的子线性参数增长",
+    "余弦分类器路由 + 双项辅助损失，有效缓解 MoE 最近性偏差与专家坍塌",
+    "面向 RQ-based docids 的结构化掩码与慢学习器 KL 正则，提升增量索引稳定性"
+   ],
+   "benchmarks": [
+    "NQ320k",
+    "MS MARCO Passage",
+    "LongEval"
+   ]
+  }
+ }
 }

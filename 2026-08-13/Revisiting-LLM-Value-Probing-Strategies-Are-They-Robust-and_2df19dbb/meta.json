@@ -4,5 +4,30 @@
  "title": "Revisiting-LLM-Value-Probing-Strategies-Are-They-Robust-and",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-13 14:55:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/945158d9-9968-4d1d-bfa4-6442151b47e2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/945158d9-9968-4d1d-bfa4-6442151b47e2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:34:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM价值探测",
+    "鲁棒性评估",
+    "选择偏差",
+    "sequence perplexity",
+    "价值-行为对齐",
+    "人口统计学提示"
+   ],
+   "field": "大语言模型价值观评估",
+   "innovations": [
+    "系统比较三种价值探测方法的鲁棒性和表达性",
+    "提出人口统计学适应性和价值-行为一致性双重表达性评估框架",
+    "合成并开源价值观场景-行动配对数据集"
+   ],
+   "benchmarks": [
+    "World Values Survey Wave 7",
+    "合成价值观场景数据集"
+   ]
+  }
+ }
 }

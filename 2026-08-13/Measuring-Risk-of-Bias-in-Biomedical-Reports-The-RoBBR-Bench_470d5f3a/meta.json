@@ -4,5 +4,29 @@
  "title": "Measuring-Risk-of-Bias-in-Biomedical-Reports-The-RoBBR-Bench",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/42ad1c0d-8a09-4979-bd7d-cd16491bcc91.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/42ad1c0d-8a09-4979-bd7d-cd16491bcc91.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:29:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "risk of bias",
+    "biomedical literature",
+    "large language models",
+    "systematic review",
+    "support sentence retrieval",
+    "bias assessment"
+   ],
+   "field": "生物医学自然语言处理",
+   "innovations": [
+    "提出SSR和SJS两个新颖子任务评估LLM检索与推理能力",
+    "设计方面分解+句子映射的全自动人工验证标注流水线",
+    "证明检索质量与推理能力是偏倚风险评估的关键里程碑"
+   ],
+   "benchmarks": [
+    "RoBBR"
+   ]
+  }
+ }
 }

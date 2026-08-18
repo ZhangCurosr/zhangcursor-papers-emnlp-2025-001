@@ -4,5 +4,30 @@
  "title": "Mind-the-Value-Action-Gap-Do-LLMs-Act-in-Alignment-with-Thei",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 07:12:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8abc947c-d301-4eb7-9c23-9ed0e1a1672f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8abc947c-d301-4eb7-9c23-9ed0e1a1672f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:30:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "价值观对齐",
+    "价值观-行为差距",
+    "大语言模型评估",
+    "跨文化AI公平性",
+    "Schwartz价值观理论"
+   ],
+   "field": "AI价值观对齐与安全",
+   "innovations": [
+    "首次提出ValueActionLens框架系统评估LLM声明价值观与行为对齐",
+    "构建VIA数据集（14,784样本）覆盖12国家×11社会主题×56价值观",
+    "设计三维度对齐度量体系（F1、Manhattan距离、排序）并揭示跨文化不对齐风险"
+   ],
+   "benchmarks": [
+    "VIA数据集",
+    "Schwartz基本价值观理论",
+    "Likert量表评估"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Language-Mixing-in-Reasoning-Language-Models-Patterns-Impact",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d07b1f32-eb13-44dc-8866-516b3dc44b29.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d07b1f32-eb13-44dc-8866-516b3dc44b29.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:28:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语言混合",
+    "推理语言模型",
+    "多语言推理",
+    "受限解码",
+    "机制可解释性",
+    "Logit Lens",
+    "链式思维"
+   ],
+   "field": "多语言大语言模型推理行为分析",
+   "innovations": [
+    "首次系统分析RLM中语言混合的发生模式（跨语言/难度/学科）",
+    "通过受限解码证明拉丁/汉字符推理可显著提升低资源语言性能（最高115%）",
+    "用Logit Lens揭示推理轨迹语言组成与内部表征的高度对齐（Pearson相关0.71–0.99）"
+   ],
+   "benchmarks": [
+    "Knights-and-Knaves (K&K)",
+    "Multilingual MMLU (m-MMLU)"
+   ]
+  }
+ }
 }

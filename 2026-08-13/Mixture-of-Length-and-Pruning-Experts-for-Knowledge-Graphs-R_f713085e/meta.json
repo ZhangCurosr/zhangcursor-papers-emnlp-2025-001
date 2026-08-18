@@ -4,5 +4,33 @@
  "title": "Mixture-of-Length-and-Pruning-Experts-for-Knowledge-Graphs-R",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 07:11:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4e9cb193-47cc-4063-8d0c-413e5ab8fe3d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4e9cb193-47cc-4063-8d0c-413e5ab8fe3d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:30:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Knowledge Graph Reasoning",
+    "Mixture of Experts",
+    "Path Exploration",
+    "Graph Neural Networks",
+    "Link Prediction"
+   ],
+   "field": "知识图谱推理",
+   "innovations": [
+    "提出混合长度与剪枝专家框架实现个性化路径探索",
+    "设计评分/注意力/语义互补三专家剪枝机制",
+    "引入可微分层门控与早停策略提升大规模推理效率"
+   ],
+   "benchmarks": [
+    "Family",
+    "UMLS",
+    "WN18RR",
+    "FB15k-237",
+    "NELL-995",
+    "YAGO3-10"
+   ]
+  }
+ }
 }

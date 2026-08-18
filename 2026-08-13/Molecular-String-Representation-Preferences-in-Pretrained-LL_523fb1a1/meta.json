@@ -4,5 +4,36 @@
  "title": "Molecular-String-Representation-Preferences-in-Pretrained-LL",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-13 07:11:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ae85d3f9-05ef-400c-be11-b2a314f3db20.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ae85d3f9-05ef-400c-be11-b2a314f3db20.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:30:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "分子属性预测",
+    "大语言模型",
+    "SMILES",
+    "InChI",
+    "IUPAC名称",
+    "零样本学习",
+    "少样本学习",
+    "分子表示"
+   ],
+   "field": "化学信息学与LLM交叉",
+   "innovations": [
+    "系统揭示LLM对InChI/IUPAC名称的零/少样本显著偏好，挑战SMILES默认假设",
+    "通过ASO检验与原子计数实验从多因素角度归因表示偏好成因",
+    "验证Tanimoto相似度检索提升少样本性能及token操纵对SMILES帮助有限"
+   ],
+   "benchmarks": [
+    "MoleculeNet",
+    "BBBP",
+    "BACE",
+    "ClinTox",
+    "ESOL",
+    "FreeSolv"
+   ]
+  }
+ }
 }

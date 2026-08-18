@@ -4,5 +4,32 @@
  "title": "MCIP-Protecting-MCP-Safety-via-Model-Contextual-Integrity-Pr",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1f550e22-21c2-4d6f-8ef9-6259fb45cfb9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1f550e22-21c2-4d6f-8ef9-6259fb45cfb9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:29:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MCP安全",
+    "Model Context Protocol",
+    "Contextual Integrity",
+    "LLM Agent安全",
+    "工具调用安全",
+    "威胁建模",
+    "MCIP"
+   ],
+   "field": "LLM Agent安全与可信",
+   "innovations": [
+    "提出MCIP协议填补MCP在MAESTRO框架下第5、6层安全机制缺失",
+    "构建五维细粒度风险分类体系覆盖Phase/Source/Scope/Type/MAESTRO Layer",
+    "开发MCIP Guardian安全感知模型，Risk Resistance提升40.81%"
+   ],
+   "benchmarks": [
+    "MCIP-bench",
+    "ToolACE Risk Resistance",
+    "BFCL-v3"
+   ]
+  }
+ }
 }

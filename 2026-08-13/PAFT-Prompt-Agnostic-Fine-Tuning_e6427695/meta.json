@@ -4,5 +4,38 @@
  "title": "PAFT-Prompt-Agnostic-Fine-Tuning",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 07:11:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ebeea0fa-900f-4c95-bb15-79f04dc983b8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ebeea0fa-900f-4c95-bb15-79f04dc983b8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:32:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prompt robustness",
+    "fine-tuning",
+    "large language models",
+    "domain adaptation",
+    "prompt agnostic",
+    "SFT",
+    "RLFT"
+   ],
+   "field": "大语言模型微调与提示鲁棒性",
+   "innovations": [
+    "提出动态提示微调框架PAFT，在训练期间随机采样多样化合成提示以增强提示鲁棒性",
+    "首次系统性地将提示鲁棒性同时扩展至SFT和RLFT（GRPO）两大微调范式",
+    "从域适应理论角度建立提示分布差异与模型泛化能力的理论联系"
+   ],
+   "benchmarks": [
+    "HellaSwag",
+    "PIQA",
+    "Winogrande",
+    "RACE-mid/high",
+    "HumanEval",
+    "GSM8K",
+    "T-Eval",
+    "Geometry3k",
+    "Xstory_cloze"
+   ]
+  }
+ }
 }

@@ -4,5 +4,39 @@
  "title": "Re-Align-Aligning-Vision-Language-Models-via-Retrieval-Augme",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-13 14:56:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4c6b9236-4cc8-4ece-aef5-82b00ba314e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4c6b9236-4cc8-4ece-aef5-82b00ba314e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:34:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision Language Models",
+    "Hallucination Mitigation",
+    "Direct Preference Optimization",
+    "Retrieval-Augmented Generation",
+    "Multimodal Alignment",
+    "rDPO",
+    "POPE",
+    "HallusionBench"
+   ],
+   "field": "多模态大模型对齐与幻觉抑制",
+   "innovations": [
+    "基于图像检索的偏好数据构建Pipeline，生成语义连贯的自然幻觉样本",
+    "提出rDPO损失函数，融合文本与视觉双偏好信号进行VLM对齐",
+    "在多种模型架构与规模（1B-13B）上验证方法的可扩展性与鲁棒性"
+   ],
+   "benchmarks": [
+    "POPE",
+    "HallusionBench",
+    "ScienceQA",
+    "TextVQA",
+    "MMBench",
+    "MME",
+    "MM-Vet",
+    "VisWiz",
+    "LLaVABench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "REARANK-Reasoning-Re-ranking-Agent-via-Reinforcement-Learnin",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-08-13 14:56:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/39811c93-ca86-43d5-8556-4f0eb18983ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/39811c93-ca86-43d5-8556-4f0eb18983ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:33:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "重排序",
+    "强化学习",
+    "信息检索",
+    "大语言模型",
+    "listwise排序",
+    "推理"
+   ],
+   "field": "信息检索与排序",
+   "innovations": [
+    "首个基于listwise策略的RL推理重排序代理",
+    "仅179标注样本通过多采样数据增强+相对NDCG奖励实现高效RL训练",
+    "推理能力可从重排序任务迁移至数学推理任务"
+   ],
+   "benchmarks": [
+    "TREC-DL19",
+    "TREC-DL20",
+    "BEIR",
+    "BRIGHT"
+   ]
+  }
+ }
 }

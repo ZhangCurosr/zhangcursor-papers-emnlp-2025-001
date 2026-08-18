@@ -4,5 +4,27 @@
  "title": "ProtoVQA-An-Adaptable-Prototypical-Framework-for-Explainable",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-08-13 14:55:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f551eb6-b143-4ffd-a73b-954c22662feb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f551eb6-b143-4ffd-a73b-954c22662feb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:32:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Visual Question Answering",
+    "Prototype-based Learning",
+    "Explainable AI",
+    "Visual-Linguistic Alignment",
+    "Multi-modal Reasoning"
+   ],
+   "field": "可解释视觉-语言多模态理解",
+   "innovations": [
+    "问题感知子patch原型学习实现跨模态语义锚定",
+    "空间约束贪心匹配策略建模动态视觉-问题关系"
+   ],
+   "benchmarks": [
+    "Visual7W"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "SHIFT-Selected-Helpful-Informative-Frame-for-Video-guided-Ma",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 14:56:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c0d6b1d5-0a90-46ec-a64f-e4c4e901ec8b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c0d6b1d5-0a90-46ec-a64f-e4c4e901ec8b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:35:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video-guided Machine Translation",
+    "Multimodal Large Language Models",
+    "Frame Selection",
+    "Adaptive Input",
+    "COMET-based Annotation"
+   ],
+   "field": "多模态机器翻译",
+   "innovations": [
+    "自适应选择文本或单关键帧输入的即插即用VMT框架",
+    "聚类加清晰度评分的轻量化关键帧选择策略",
+    "COMET驱动候选打分与混合绝对-相对损失训练选择器"
+   ],
+   "benchmarks": [
+    "TriFine",
+    "VATEX"
+   ]
+  }
+ }
 }

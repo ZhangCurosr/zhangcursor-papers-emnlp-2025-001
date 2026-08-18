@@ -4,5 +4,35 @@
  "title": "QFrCoLA-a-Quebec-French-Corpus-of-Linguistic-Acceptability-J",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-13 14:55:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/da79cdc9-7c02-4baa-b023-124a1aa2f8f3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/da79cdc9-7c02-4baa-b023-124a1aa2f8f3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:33:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Language Model Evaluation",
+    "Linguistic Acceptability",
+    "Quebec French",
+    "Cross-lingual LLM",
+    "Corpus Construction"
+   ],
+   "field": "语言模型评估与语言学基准",
+   "innovations": [
+    "创建魁北克法语最大规模语言可接受性语料库QFrCoLA",
+    "系统评估并证明预训练LLM在零样本语言判断任务上失效",
+    "验证基于官方规范性来源的数据集可有效作为严格语言学基准"
+   ],
+   "benchmarks": [
+    "QFrCoLA",
+    "CoLA",
+    "RuCoLA",
+    "CoLAC",
+    "JCoLA",
+    "NoCoLA",
+    "ITACoLA",
+    "DaLAJ"
+   ]
+  }
+ }
 }
