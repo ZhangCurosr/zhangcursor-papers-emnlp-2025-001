@@ -4,5 +4,34 @@
  "title": "Video-Compression-Commander-Plug-and-Play-Inference-Accelera",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-08-13 14:56:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d992de91-0fd8-45fb-bd6c-5123987c5a5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d992de91-0fd8-45fb-bd6c-5123987c5a5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:44:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VideoLLM",
+    "token压缩",
+    "推理加速",
+    "无训练压缩",
+    "Flash Attention",
+    "帧独特性"
+   ],
+   "field": "多模态大模型高效推理",
+   "innovations": [
+    "首个基于帧独特性自适应分配token预算的VideoLLM无训练压缩框架",
+    "提出可叠加于既有压缩方法的Frame Compression Adjustment通用模块",
+    "同时兼容Flash Attention且无需依赖[CLS]或显式attention权重"
+   ],
+   "benchmarks": [
+    "MVBench",
+    "LongVideoBench",
+    "MLVU",
+    "VideoMME",
+    "EgoSchema",
+    "PerceptionTest"
+   ]
+  }
+ }
 }

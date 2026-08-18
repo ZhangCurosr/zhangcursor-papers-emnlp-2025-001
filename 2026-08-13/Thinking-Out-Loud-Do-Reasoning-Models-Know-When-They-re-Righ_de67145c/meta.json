@@ -4,5 +4,33 @@
  "title": "Thinking-Out-Loud-Do-Reasoning-Models-Know-When-They-re-Righ",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 14:56:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c79598b1-f6e0-4418-a3d0-1df593a41622.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c79598b1-f6e0-4418-a3d0-1df593a41622.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:42:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Large Reasoning Models",
+    "Verbalized Calibration",
+    "Uncertainty Quantification",
+    "Reinforcement Learning",
+    "Chain-of-Thought",
+    "Factuality Benchmarks"
+   ],
+   "field": "大语言模型校准与可靠性",
+   "innovations": [
+    "系统比较SFT与RL训练范式对语聊化校准的渐进影响",
+    "揭示推理SFT在提升推理能力时降低事实性校准与知识边界意识",
+    "验证推理RL跨领域泛化提升校准并部分恢复事实性性能"
+   ],
+   "benchmarks": [
+    "AIME 2024/2025",
+    "GPQA-Diamond",
+    "SimpleQA",
+    "FreshQA",
+    "LiveBench-Reasoning"
+   ]
+  }
+ }
 }

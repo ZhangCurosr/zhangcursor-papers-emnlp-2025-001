@@ -4,5 +4,30 @@
  "title": "VC4VG-Optimizing-Video-Captions-for-Text-to-Video-Generation",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-08-13 14:56:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f11b8215-bc9c-40ed-b746-3fa9b5b2e4ee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f11b8215-bc9c-40ed-b746-3fa9b5b2e4ee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:44:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-Video",
+    "Video Captioning",
+    "Multimodal LLM",
+    "Dataset Optimization",
+    "Video Generation"
+   ],
+   "field": "文本到视频生成",
+   "innovations": [
+    "五维度字幕分解框架",
+    "VC4VG-Bench 必需性分层评估",
+    "SFT+DPO 双阶段时序增强训练"
+   ],
+   "benchmarks": [
+    "VC4VG-Bench",
+    "VBench",
+    "MovieGen-Bench"
+   ]
+  }
+ }
 }

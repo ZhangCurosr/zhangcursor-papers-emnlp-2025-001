@@ -4,5 +4,33 @@
  "title": "User-Feedback-in-Human-LLM-Dialogues-A-Lens-to-Understand-Us",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 14:56:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/351ca531-f572-4dd9-adf6-3ff01f1156b1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/351ca531-f572-4dd9-adf6-3ff01f1156b1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:43:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "implicit feedback",
+    "human-LLM interaction",
+    "response regeneration",
+    "SFT",
+    "multi-turn dialogue",
+    "user feedback extraction",
+    "model alignment"
+   ],
+   "field": "人机交互与大模型对齐",
+   "innovations": [
+    "构建密集标注的隐式反馈数据集并系统性分析反馈模式",
+    "提出利用反馈语义内容的响应再生方法Regeneration w/ Semantics",
+    "揭示反馈语义利用在简单任务有效但复杂任务失效的混合结果"
+   ],
+   "benchmarks": [
+    "MT-Bench",
+    "WildBench",
+    "LMSYS-chat-1M",
+    "WildChat"
+   ]
+  }
+ }
 }

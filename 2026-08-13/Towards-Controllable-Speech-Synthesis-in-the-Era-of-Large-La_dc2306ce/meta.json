@@ -4,5 +4,37 @@
  "title": "Towards-Controllable-Speech-Synthesis-in-the-Era-of-Large-La",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-13 14:55:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5a6f1c01-cffa-461d-a676-2391a6d9ad17.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5a6f1c01-cffa-461d-a676-2391a6d9ad17.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:42:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可控语音合成",
+    "Text-to-Speech",
+    "大语言模型",
+    "零样本TTS",
+    "指令驱动生成",
+    "离散Token",
+    "扩散模型",
+    "流匹配"
+   ],
+   "field": "语音合成与可控生成",
+   "innovations": [
+    "首次系统综述LLM时代可控TTS，建立架构-策略-特征三维度分类体系",
+    "提出基于多模态大模型Gemini的自动化评估框架，评测指令遵循/自然度/表现力",
+    "系统对比离散与连续特征在可控TTS中的优劣，指导方法选型"
+   ],
+   "benchmarks": [
+    "Gemini-based人工对齐评估",
+    "MCD",
+    "FDSD",
+    "WER",
+    "Cosine Similarity",
+    "PESQ",
+    "MOS/CMOS"
+   ]
+  }
+ }
 }

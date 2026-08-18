@@ -4,5 +4,32 @@
  "title": "SensorLLM-Aligning-Large-Language-Models-with-Motion-Sensors",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-13 14:55:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/68c123d7-a57b-47ee-97af-906ab5704740.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/68c123d7-a57b-47ee-97af-906ab5704740.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:39:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Human Activity Recognition",
+    "Large Language Models",
+    "Time-Series Alignment",
+    "Multimodal Learning",
+    "Sensor Data"
+   ],
+   "field": "可穿戴传感器与LLM对齐",
+   "innovations": [
+    "自动趋势描述生成的无标注传感器-语言对齐方法",
+    "每通道特殊token保留多变量结构信息",
+    "仅微调5.67%参数的轻量两阶段框架实现跨数据集泛化"
+   ],
+   "benchmarks": [
+    "USC-HAD",
+    "UCI-HAR",
+    "PAMAP2",
+    "MHealth",
+    "CAPTURE-24"
+   ]
+  }
+ }
 }

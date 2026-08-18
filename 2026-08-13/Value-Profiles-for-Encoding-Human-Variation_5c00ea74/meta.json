@@ -4,5 +4,34 @@
  "title": "Value-Profiles-for-Encoding-Human-Variation",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 14:57:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4b533d70-dc83-4d68-8f63-d6c6e8b1a13f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4b533d70-dc83-4d68-8f63-d6c6e8b1a13f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:45:15",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "value profiles",
+    "individual modeling",
+    "human variation",
+    "uncertainty decomposition",
+    "in-context learning",
+    "personalized LM"
+   ],
+   "field": "个性化语言建模",
+   "innovations": [
+    "提出 Value Profile 编码器实现个体价值观偏好建模",
+    "构建 Individual Modeling 框架兼顾可解释性与灵活性",
+    "设计价值相关不确定性分解的信息论度量"
+   ],
+   "benchmarks": [
+    "DIC",
+    "HL",
+    "HK",
+    "VP",
+    "OQA",
+    "Habermas"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "ToneCraft-Cantonese-Lyrics-Generation-with-Harmony-of-Tones",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-13 14:56:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7225eda6-4909-446a-8e28-a69b3e73e74c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7225eda6-4909-446a-8e28-a69b3e73e74c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:42:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "粤语歌词生成",
+    "声调语言",
+    "旋律-歌词对齐",
+    "大语言模型",
+    "约束文本生成",
+    "0243方法"
+   ],
+   "field": "多模态内容生成",
+   "innovations": [
+    "首个面向粤语旋律-声调对齐的LLM歌词生成框架",
+    "基于0243方法的CTP-Mapping逆工程消除对齐数据依赖",
+    "字符级控制+调性感知损失(HAL)联合优化机制"
+   ],
+   "benchmarks": [
+    "IComposer粤语歌曲",
+    "Feitsui粤语歌词库"
+   ]
+  }
+ }
 }

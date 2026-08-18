@@ -4,5 +4,31 @@
  "title": "Transferable-Direct-Prompt-Injection-via-Activation-Guided-M",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 14:56:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aa7942c6-c6d1-437a-976a-20d8da026c6f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aa7942c6-c6d1-437a-976a-20d8da026c6f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:43:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Prompt Injection",
+    "Adversarial Attacks",
+    "Black-box Attacks",
+    "Energy-based Models",
+    "MCMC Sampling",
+    "LLM Security"
+   ],
+   "field": "大语言模型安全与对抗攻击",
+   "innovations": [
+    "首次提出激活值引导的可迁移直接提示注入攻击框架，无需查询目标模型",
+    "构建基于二分类器的隐式能量基模型(EBM)，通过激活值分布量化对抗提示质量",
+    "引入token级MCMC采样自适应优化机制，结合BERT提议与EBM能量评估生成自然对抗提示"
+   ],
+   "benchmarks": [
+    "CYBERSECEVAL3",
+    "Tensor Trust",
+    "StruQ"
+   ]
+  }
+ }
 }

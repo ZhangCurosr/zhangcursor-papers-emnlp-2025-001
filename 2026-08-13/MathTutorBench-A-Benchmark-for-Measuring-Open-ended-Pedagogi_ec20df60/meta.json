@@ -4,5 +4,34 @@
  "title": "MathTutorBench-A-Benchmark-for-Measuring-Open-ended-Pedagogi",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-13 07:11:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c2cca93d-9807-4573-9df8-ffcc283e9ece.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c2cca93d-9807-4573-9df8-ffcc283e9ece.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:39:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话式辅导",
+    "LLM 评估基准",
+    "教学法",
+    "奖励模型",
+    "苏格拉底提问",
+    "脚手架教学"
+   ],
+   "field": "教育 AI / 对话式智能辅导系统评测",
+   "innovations": [
+    "提出 MathTutorBench 基准，覆盖学科专长-学生理解-教学法三维度七任务的全自动评估框架",
+    "训练轻量级 Scaffolding 奖励模型（Qwen2.5-1.5B，精度0.84），首次实现对开放式教师回复的自动教学法打分",
+    "揭示 LLM 数学解题能力与教学能力之间存在 trade-off，专用辅导模型 LearnLM 综合表现最优"
+   ],
+   "benchmarks": [
+    "MathTutorBench",
+    "GSM8k",
+    "StepVerify",
+    "MathDial",
+    "Bridge",
+    "MRBench"
+   ]
+  }
+ }
 }

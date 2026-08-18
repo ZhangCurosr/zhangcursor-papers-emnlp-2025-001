@@ -4,5 +4,30 @@
  "title": "SmartBench-Is-Your-LLM-Truly-a-Good-Chinese-Smartphone-Assis",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-08-13 14:56:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6a61708d-cd06-428f-80cd-bcae97c5b2ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6a61708d-cd06-428f-80cd-bcae97c5b2ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:40:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "SmartBench",
+    "端侧大模型",
+    "手机助手评测",
+    "主观对齐",
+    "LLM-as-a-Judge",
+    "W4A16量化",
+    "移动端NPU部署"
+   ],
+   "field": "端侧大模型评测",
+   "innovations": [
+    "首个面向中文手机端大模型的5类20任务综合评测基准",
+    "针对细分移动场景定制的多维LLM-as-a-Judge评分协议",
+    "在真实手机NPU上系统验证W4A16量化部署的性能保留与工程画像"
+   ],
+   "benchmarks": [
+    "SmartBench"
+   ]
+  }
+ }
 }

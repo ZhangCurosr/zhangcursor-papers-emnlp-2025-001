@@ -4,5 +4,10 @@
  "title": "WangchanThaiInstruct-An-instruction-following-Dataset-for-Cu",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-08-13 14:56:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/456b19cf-3dbb-4148-a61a-a597db8c9d63.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/456b19cf-3dbb-4148-a61a-a597db8c9d63.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:44:52",
+  "chunks": 1
+ }
 }

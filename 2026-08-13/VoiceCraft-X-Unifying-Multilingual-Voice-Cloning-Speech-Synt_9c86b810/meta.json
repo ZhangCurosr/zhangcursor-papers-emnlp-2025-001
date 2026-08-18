@@ -4,5 +4,34 @@
  "title": "VoiceCraft-X-Unifying-Multilingual-Voice-Cloning-Speech-Synt",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 14:56:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/939e471d-60d1-4004-a6ba-69ed1d32f9ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/939e471d-60d1-4004-a6ba-69ed1d32f9ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:44:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot TTS",
+    "speech editing",
+    "multilingual speech synthesis",
+    "neural codec language model",
+    "token reordering",
+    "Qwen3",
+    "autoregressive generation"
+   ],
+   "field": "多语言语音合成与编辑",
+   "innovations": [
+    "提出统一多语言语音编辑与零样本TTS的自回归神经编解码模型VoiceCraft-X，支持11种语言",
+    "利用Qwen3大模型作为无音素的跨语言文本tokenizer，消除G2P依赖",
+    "设计时间对齐的prefix-suffix-middle token重排序机制与双层加权损失，统一编辑/合成任务"
+   ],
+   "benchmarks": [
+    "Seed-TTS test-en/test-zh",
+    "KsponSpeech",
+    "KokoroSpeech",
+    "Multilingual LibriSpeech (MLS)",
+    "Common Voice"
+   ]
+  }
+ }
 }

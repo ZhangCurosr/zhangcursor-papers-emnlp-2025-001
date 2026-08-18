@@ -4,5 +4,31 @@
  "title": "SwarmAgentic-Towards-Fully-Automated-Agentic-System-Generati",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 14:56:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/75624fd8-f8d4-4c40-b1c0-cf74845f9ecd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/75624fd8-f8d4-4c40-b1c0-cf74845f9ecd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:40:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multi-Agent System",
+    "Particle Swarm Optimization",
+    "Automated Agent Design",
+    "LLM-driven Search",
+    "Agentic System Generation"
+   ],
+   "field": "多代理系统自动化设计",
+   "innovations": [
+    "将PSO转化为语言驱动的象征性优化过程",
+    "首个完全从零生成代理系统的框架",
+    "失败感知速度更新机制避免重复错误"
+   ],
+   "benchmarks": [
+    "TravelPlanner",
+    "Natural Plan",
+    "Creative Writing",
+    "MGSM"
+   ]
+  }
+ }
 }

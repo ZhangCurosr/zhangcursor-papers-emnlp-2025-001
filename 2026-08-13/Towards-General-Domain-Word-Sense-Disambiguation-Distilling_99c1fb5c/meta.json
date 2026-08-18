@@ -4,5 +4,34 @@
  "title": "Towards-General-Domain-Word-Sense-Disambiguation-Distilling",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-13 14:55:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/18865e5a-90b6-4770-9ea2-1d4b8d23f0b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/18865e5a-90b6-4770-9ea2-1d4b8d23f0b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:42:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Word Sense Disambiguation",
+    "Knowledge Distillation",
+    "Large Language Models",
+    "Silver-standard Data",
+    "General-domain WSD",
+    "ESCHER"
+   ],
+   "field": "词义消歧与语义理解",
+   "innovations": [
+    "提出LLM驱动的生成式与标注式双路径银标WSD语料构建框架",
+    "发现小模型经标注式蒸馏后可匹配或超越LLM教师性能",
+    "验证sense覆盖度是提升通用域WSD泛化的关键因素"
+   ],
+   "benchmarks": [
+    "HardEN",
+    "42D",
+    "SemEval-2007",
+    "ALL_NEW",
+    "S10_NEW",
+    "SoftEN"
+   ]
+  }
+ }
 }

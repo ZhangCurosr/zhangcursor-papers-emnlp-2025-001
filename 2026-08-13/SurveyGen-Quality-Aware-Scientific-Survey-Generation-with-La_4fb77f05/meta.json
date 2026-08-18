@@ -4,5 +4,32 @@
  "title": "SurveyGen-Quality-Aware-Scientific-Survey-Generation-with-La",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 14:56:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/13aabfae-9ae3-4b93-8571-f6a482906cb2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/13aabfae-9ae3-4b93-8571-f6a482906cb2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:41:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "科学综述生成",
+    "检索增强生成",
+    "文献引用质量",
+    "大语言模型",
+    "学术文本生成",
+    "质量感知检索"
+   ],
+   "field": "科学文本自动生成",
+   "innovations": [
+    "构建 SurveyGen 大规模跨学科综述数据集及引用质量评估基准",
+    "提出 QUAL-SG 质量感知 RAG 框架，通过共被引扩展与多维重排序提升引用可靠性",
+    "建立三任务分层评测体系系统对比不同人类介入程度下 LLM 综述生成性能"
+   ],
+   "benchmarks": [
+    "SurveyGen",
+    "S2ORC",
+    "OpenAlex",
+    "SciReviewGen"
+   ]
+  }
+ }
 }

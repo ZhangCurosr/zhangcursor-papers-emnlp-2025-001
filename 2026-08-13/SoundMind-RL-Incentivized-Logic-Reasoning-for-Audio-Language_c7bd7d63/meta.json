@@ -4,5 +4,30 @@
  "title": "SoundMind-RL-Incentivized-Logic-Reasoning-for-Audio-Language",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-13 14:55:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7a01dbc5-2c38-4016-a420-796fd472c482.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7a01dbc5-2c38-4016-a420-796fd472c482.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:40:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "音频逻辑推理",
+    "强化学习",
+    "大音频语言模型",
+    "链式思考",
+    "多模态推理",
+    "SoundMind"
+   ],
+   "field": "多模态大模型推理",
+   "innovations": [
+    "SoundMind数据集：首个音频模态标注的CoT逻辑推理数据集",
+    "SoundMind-RL：格式基规则强化学习算法防止模态捷径学习",
+    "三配置评估：音频→文本/文本→音频/音频→音频完整推理评测"
+   ],
+   "benchmarks": [
+    "SoundMind Benchmark",
+    "LogiQA 2.0-NLI"
+   ]
+  }
+ }
 }

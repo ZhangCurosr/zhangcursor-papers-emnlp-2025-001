@@ -4,5 +4,36 @@
  "title": "The-LLM-Already-Knows-Estimating-LLM-Perceived-Question-Diff",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-13 14:56:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e113e58f-38e7-43b4-8735-82190625dca2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e113e58f-38e7-43b4-8735-82190625dca2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:41:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM难度估计",
+    "隐藏表示",
+    "马尔可夫链",
+    "值函数",
+    "自适应推理",
+    "Self-Consistency"
+   ],
+   "field": "大语言模型推理优化",
+   "innovations": [
+    "提出仅利用目标LLM隐藏表示的难度估计方法，无需输出采样",
+    "将自回归生成建模为马尔可夫链并定义值函数估计期望输出质量",
+    "训练独立轻量级TD网络拟合值函数，不损害主模型通用能力"
+   ],
+   "benchmarks": [
+    "MMBench",
+    "ScienceQA",
+    "MathVista",
+    "StrategyQA",
+    "gsm8k",
+    "commonsenseQA",
+    "RLHF-V",
+    "VLFeedback"
+   ]
+  }
+ }
 }

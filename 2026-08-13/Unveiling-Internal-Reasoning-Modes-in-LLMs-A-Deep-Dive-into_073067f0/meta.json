@@ -4,5 +4,33 @@
  "title": "Unveiling-Internal-Reasoning-Modes-in-LLMs-A-Deep-Dive-into",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 14:56:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/89f7609f-e700-4d83-bb81-20013c433c6c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/89f7609f-e700-4d83-bb81-20013c433c6c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:43:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多跳推理",
+    "机制可解释性",
+    "事实捷径",
+    "潜在推理",
+    "ARR",
+    "RAG冲突",
+    "注意力消除",
+    "Logit Lens"
+   ],
+   "field": "大语言模型机制可解释性",
+   "innovations": [
+    "提出ARR指标高效区分潜在推理与事实捷径（约90%准确率）",
+    "通过逆向工程揭示两跳推理中subject位置的桥接信息编码机制",
+    "验证ARR在RAG知识冲突场景中对模型行为风格的预测能力"
+   ],
+   "benchmarks": [
+    "2WikiMultiHopQA",
+    "2FC (Two-hop Fact Conflict)",
+    "KRE"
+   ]
+  }
+ }
 }

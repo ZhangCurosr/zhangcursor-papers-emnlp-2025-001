@@ -4,5 +4,34 @@
  "title": "Towards-Automated-Error-Discovery-A-Study-in-Conversational",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-08-13 14:56:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e2aca1ed-2bd3-4660-aa28-5003306731c4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e2aca1ed-2bd3-4660-aa28-5003306731c4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:42:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "错误检测",
+    "对话AI",
+    "广义类别发现",
+    "对比学习",
+    "软聚类",
+    "错误定义生成"
+   ],
+   "field": "对话系统评估与错误检测",
+   "innovations": [
+    "提出SEEED框架，结合NNK-Means软聚类与增强版SNL损失检测已知/未知对话错误",
+    "引入LBSR标签感知采样策略，将对比学习正负样本分为软/硬四象限以提升表示学习质量",
+    "将错误检测形式化为广义类别发现问题，支持自动定义生成新型错误类型"
+   ],
+   "benchmarks": [
+    "FEDI-Error",
+    "ABCEval",
+    "Soda-Eval",
+    "CLINC",
+    "BANKING",
+    "StackOverflow"
+   ]
+  }
+ }
 }

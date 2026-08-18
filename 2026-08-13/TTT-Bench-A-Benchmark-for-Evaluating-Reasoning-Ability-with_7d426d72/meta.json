@@ -4,5 +4,32 @@
  "title": "TTT-Bench-A-Benchmark-for-Evaluating-Reasoning-Ability-with",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 14:56:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c96466cc-a487-4832-9ba0-6eb1263dc300.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c96466cc-a487-4832-9ba0-6eb1263dc300.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:41:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "大推理模型",
+    "推理基准",
+    "Tic-Tac-Toe",
+    "战略推理",
+    "空间推理",
+    "可验证基准",
+    "链式思维"
+   ],
+   "field": "大模型推理评测",
+   "innovations": [
+    "提出全新无污染程序化生成的 TTT-Bench 基准，覆盖四种新型井字棋风格游戏",
+    "揭示数学推理高分模型在简单直觉推理任务上的系统性退化（平均低于MATH 500达41%）",
+    "设计基于Win/Blocked/Fork三级判据的自动化可验证问题生成pipeline"
+   ],
+   "benchmarks": [
+    "TTT-Bench",
+    "MATH 500",
+    "AIME 2024"
+   ]
+  }
+ }
 }

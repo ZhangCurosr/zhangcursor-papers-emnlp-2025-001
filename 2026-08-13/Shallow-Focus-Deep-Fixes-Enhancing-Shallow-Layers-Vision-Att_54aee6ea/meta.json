@@ -4,5 +4,36 @@
  "title": "Shallow-Focus-Deep-Fixes-Enhancing-Shallow-Layers-Vision-Att",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 14:57:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/338d932f-6fe6-46c3-beb6-aa4f6578548e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/338d932f-6fe6-46c3-beb6-aa4f6578548e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:40:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "幻觉缓解",
+    "注意力汇聚",
+    "多模态大模型",
+    "免训练方法",
+    "视觉语言模型"
+   ],
+   "field": "多模态大模型幻觉缓解",
+   "innovations": [
+    "发现浅层密集视觉sink头与幻觉负相关并系统验证",
+    "提出EVAS免训练即插即用方法，通过广播最优头注意力分布降低幻觉",
+    "在7种不同架构MLLM及视频理解任务上验证泛化性"
+   ],
+   "benchmarks": [
+    "POPE",
+    "CHAIR",
+    "MMBench",
+    "MM-Vet",
+    "MME",
+    "VizWiz",
+    "SEED",
+    "GQA",
+    "HallusionBench"
+   ]
+  }
+ }
 }

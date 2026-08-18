@@ -4,5 +4,32 @@
  "title": "MYTHTRIAGE-Scalable-Detection-of-Opioid-Use-Disorder-Myths-o",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 07:12:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a8d00d7e-512d-4a24-b357-763fcb140003.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a8d00d7e-512d-4a24-b357-763fcb140003.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:38:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "虚假信息检测",
+    "大语言模型",
+    "健康信息",
+    "YouTube",
+    "阿片类药物使用障碍",
+    "模型级联",
+    "知识蒸馏"
+   ],
+   "field": "计算社会科学/健康信息学",
+   "innovations": [
+    "提出MYTHTRIAGE分诊管线结合轻量蒸馏模型与高能力LLM实现大规模OUD迷思检测",
+    "构建首个8类OUD迷思专家验证黄金标准数据集（310视频/2480标签）",
+    "验证MSP+VET联合延迟策略在成本与性能间取得最优平衡（0.86 macro F1，节省94%成本）"
+   ],
+   "benchmarks": [
+    "OUD Search Dataset (310 expert-annotated videos)",
+    "OUD Recommendation Dataset (164K unique videos)",
+    "GPT-4o few-shot baseline (macro F1 0.82-0.87)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "T-MAD-Target-driven-Multimodal-Alignment-for-Stance-Detectio",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-08-13 14:55:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/030a6ce2-c864-4e22-917f-63271790afc4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/030a6ce2-c864-4e22-917f-63271790afc4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:41:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multimodal Stance Detection",
+    "Target-driven Alignment",
+    "Dynamic Weighting",
+    "Iterative Reasoning",
+    "InfoNCE",
+    "Cross-modal Fusion",
+    "Zero-shot Generalization"
+   ],
+   "field": "多模态立场检测",
+   "innovations": [
+    "目标驱动多头跨模态对齐机制，以target为query实现图文细粒度语义耦合",
+    "基于InfoNCE互信息下界的动态模态加权融合，自适应处理模态冲突",
+    "迭代多步推理链（K=5）渐进精炼融合表征，结合CWVF与MLLM协同投票"
+   ],
+   "benchmarks": [
+    "MMSD",
+    "MultiClimate"
+   ]
+  }
+ }
 }

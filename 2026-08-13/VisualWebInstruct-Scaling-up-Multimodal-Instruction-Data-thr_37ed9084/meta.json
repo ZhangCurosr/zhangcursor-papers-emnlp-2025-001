@@ -4,5 +4,10 @@
  "title": "VisualWebInstruct-Scaling-up-Multimodal-Instruction-Data-thr",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 14:56:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d305828f-0989-472f-a994-f1588c8a5a37.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d305828f-0989-472f-a994-f1588c8a5a37.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:44:50",
+  "chunks": 1
+ }
 }

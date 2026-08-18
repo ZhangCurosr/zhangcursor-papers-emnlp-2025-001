@@ -4,5 +4,33 @@
  "title": "Unleashing-the-Reasoning-Potential-of-Pre-trained-LLMs-by-Cr",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 14:56:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/063c2301-5c7c-4ed0-a746-282edbc439dc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/063c2301-5c7c-4ed0-a746-282edbc439dc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:43:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "批判性微调",
+    "小样本学习",
+    "推理激发",
+    "强化学习替代",
+    "大语言模型后训练"
+   ],
+   "field": "大语言模型推理增强",
+   "innovations": [
+    "提出仅需单样本的批判性微调(One-shot CFT)范式",
+    "通过多源学生-教师交互构建小样本批判数据集，替代高成本的单样本强化学习",
+    "在1.5B-14B模型上以1/15-1/20的计算成本实现媲美或超越RLVR的推理提升"
+   ],
+   "benchmarks": [
+    "MATH-500",
+    "Minerva",
+    "OlympiadBench",
+    "AIME24/25",
+    "AMC23",
+    "BIG-Bench Extra Hard (BBEH)"
+   ]
+  }
+ }
 }

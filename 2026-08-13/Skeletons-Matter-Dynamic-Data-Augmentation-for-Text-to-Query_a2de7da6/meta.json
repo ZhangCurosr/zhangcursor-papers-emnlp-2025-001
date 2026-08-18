@@ -4,5 +4,33 @@
  "title": "Skeletons-Matter-Dynamic-Data-Augmentation-for-Text-to-Query",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-08-13 14:55:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/24fbac53-2b72-483a-9825-5897334c3d50.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/24fbac53-2b72-483a-9825-5897334c3d50.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:40:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-Query",
+    "语义解析",
+    "数据增强",
+    "查询骨架",
+    "大语言模型",
+    "动态诊断",
+    "跨语言泛化"
+   ],
+   "field": "自然语言到结构化查询的语义解析",
+   "innovations": [
+    "提出基于查询骨架的动态诊断与数据增强框架，首次统一多语言Text-to-Query任务",
+    "引入AST/Token双层结构相似度度量，实现模型骨架层面弱点的精准诊断",
+    "逆向-正向验证管线生成高质量合成数据，仅需10K条即在四个基准上达到SOTA"
+   ],
+   "benchmarks": [
+    "Spider",
+    "BIRD",
+    "Text2Cypher",
+    "NL2GQL"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "SafeScientist-Enhancing-AI-Scientist-Safety-for-Risk-Aware-S",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-13 14:56:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/11906813-42ff-49d5-8601-4fd2450bd548.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/11906813-42ff-49d5-8601-4fd2450bd548.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:39:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI Scientist",
+    "LLM Safety",
+    "Multi-Agent System",
+    "Scientific Discovery",
+    "Adversarial Robustness",
+    "Benchmark"
+   ],
+   "field": "AI for Science 安全与可靠性",
+   "innovations": [
+    "提出 SafeScientist 多层级安全框架，内嵌提示词监控、协作代理监控、工具使用监控与伦理审查四重防护机制",
+    "构建 SciSafetyBench 基准，覆盖六大科学领域 240 个高风险任务与 30 个科学工具的 120 个专属风险场景",
+    "设计三类对抗攻击方法（查询注入、恶意讨论代理、恶意实验指导）并验证框架鲁棒性"
+   ],
+   "benchmarks": [
+    "SciSafetyBench",
+    "AI Scientist 基线评测",
+    "Agent Laboratory 基线评测"
+   ]
+  }
+ }
 }

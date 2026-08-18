@@ -4,5 +4,32 @@
  "title": "Training-a-Utility-based-Retriever-Through-Shared-Context-At",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-08-13 14:55:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/04293aef-a132-427f-86b2-58f7bce10e9e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/04293aef-a132-427f-86b2-58f7bce10e9e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:43:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "效用型检索",
+    "检索增强生成",
+    "段落归因",
+    "共享上下文",
+    "多任务泛化",
+    "扰动评估"
+   ],
+   "field": "检索增强生成（RAG）",
+   "innovations": [
+    "提出共享上下文合成管道以消除多任务训练的语义偏差",
+    "基于扰动归因和岭回归的段落级效用估计方法，捕捉段间协同效应"
+   ],
+   "benchmarks": [
+    "GTI",
+    "BRIGHT",
+    "X²-Retrieval",
+    "KILT",
+    "BeIR"
+   ]
+  }
+ }
 }

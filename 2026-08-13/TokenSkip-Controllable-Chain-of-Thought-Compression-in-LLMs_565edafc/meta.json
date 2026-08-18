@@ -4,5 +4,30 @@
  "title": "TokenSkip-Controllable-Chain-of-Thought-Compression-in-LLMs",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 14:56:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9f1892ff-2ae0-4923-9304-7f5a0649f1b0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9f1892ff-2ae0-4923-9304-7f5a0649f1b0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:42:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "TokenSkip",
+    "Chain-of-Thought Compression",
+    "Large Language Models",
+    "Efficient Inference",
+    "Token Importance"
+   ],
+   "field": "推理效率优化",
+   "innovations": [
+    "首次探索基于token跳过增强CoT效率",
+    "提出TokenSkip实现可控CoT压缩",
+    "实验验证在GSM8K上40% token减少且性能下降<0.4%"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH-500",
+    "CommonsenseQA"
+   ]
+  }
+ }
 }
