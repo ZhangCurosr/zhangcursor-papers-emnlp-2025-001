@@ -4,5 +4,31 @@
  "title": "Whisper-UT-A-Unified-Translation-Framework-for-Speech-and-Te",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 14:56:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9bb1560a-df0d-48c7-bf94-f9bab8c7edd7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9bb1560a-df0d-48c7-bf94-f9bab8c7edd7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:51:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Speech Translation",
+    "Multimodal Translation",
+    "Multi-task Learning",
+    "Whisper",
+    "Parameter-Efficient Fine-tuning",
+    "Two-stage Decoding"
+   ],
+   "field": "多模态机器翻译",
+   "innovations": [
+    "统一四任务（ASR/MT/ST/MMT）LoRA微调框架，无需架构修改",
+    "两阶段解码将ASR假设作为翻译prompt并引入误差模拟提升鲁棒性",
+    "Beta分布随机任务加权与跨任务协同机制避免梯度干扰"
+   ],
+   "benchmarks": [
+    "CoVoST2",
+    "Fisher-CallHome Spanish-to-English",
+    "BBN Mandarin-to-English"
+   ]
+  }
+ }
 }
