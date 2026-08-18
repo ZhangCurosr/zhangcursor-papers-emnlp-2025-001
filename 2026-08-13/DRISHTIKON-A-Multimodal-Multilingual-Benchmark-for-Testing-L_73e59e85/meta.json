@@ -4,5 +4,10 @@
  "title": "DRISHTIKON-A-Multimodal-Multilingual-Benchmark-for-Testing-L",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2848403c-0f52-4eb7-b75c-348e05f1848c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2848403c-0f52-4eb7-b75c-348e05f1848c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:46:45",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,30 @@
  "title": "CHENGYU-BENCH-Benchmarking-Large-Language-Models-for-Chinese",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 07:12:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/02e49d21-7e27-4f46-8694-53d1b1752dfb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/02e49d21-7e27-4f46-8694-53d1b1752dfb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:45:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Chinese Idioms",
+    "Benchmark",
+    "Large Language Models",
+    "Cultural Understanding",
+    "Open Cloze",
+    "Appropriateness Evaluation"
+   ],
+   "field": "中文自然语言处理/文化理解评测",
+   "innovations": [
+    "提出首个涵盖情感分类、语境判别与开放生成的综合性中文成语理解基准",
+    "揭示LLM在成语情感识别与恰当运用之间存在显著能力鸿沟",
+    "构建细粒度错误分析框架以量化模型文化理解弱点"
+   ],
+   "benchmarks": [
+    "CHENGYU-BENCH",
+    "ChID"
+   ]
+  }
+ }
 }

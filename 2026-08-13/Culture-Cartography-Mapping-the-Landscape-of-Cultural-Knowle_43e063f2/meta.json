@@ -4,5 +4,31 @@
  "title": "Culture-Cartography-Mapping-the-Landscape-of-Cultural-Knowle",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-13 07:12:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/38e496ea-e7b7-4bb1-9d61-741ae188cb65.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/38e496ea-e7b7-4bb1-9d61-741ae188cb65.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:46:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "文化感知 NLP",
+    "混合发起标注",
+    "LLM 知识盲区",
+    "CULTURE CARTOGRAPHY",
+    "CULTURE EXPLORER",
+    "测试集污染",
+    "树状知识探索"
+   ],
+   "field": "文化感知自然语言处理",
+   "innovations": [
+    "首次提出混合发起（mixed-initiative）文化数据采集方法，LLM 与人类双向引导知识挖掘",
+    "构建基于树状交互的 CULTURE EXPLORER 工具，支持实时编辑约束后续生成",
+    "证明所产数据具有 Google-proof 特性，有效规避测试集污染"
+   ],
+   "benchmarks": [
+    "BLEnD",
+    "CulturalBench"
+   ]
+  }
+ }
 }

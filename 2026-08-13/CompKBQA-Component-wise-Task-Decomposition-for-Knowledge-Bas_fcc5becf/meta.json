@@ -4,5 +4,29 @@
  "title": "CompKBQA-Component-wise-Task-Decomposition-for-Knowledge-Bas",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 07:10:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1f72ed36-ac10-45ea-bafb-96e35767df28.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1f72ed36-ac10-45ea-bafb-96e35767df28.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:45:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Knowledge Base Question Answering",
+    "Large Language Models",
+    "Semantic Parsing",
+    "Task Decomposition",
+    "Logical Form Generation",
+    "Retrieval-Augmented Generation"
+   ],
+   "field": "知识图谱问答",
+   "innovations": [
+    "将逻辑形式生成任务分解为骨架→实体→关系→逻辑形式的渐进式链式微调框架",
+    "提出基于对比学习的R³关系检索器，将KB感知信息融入LLM生成阶段"
+   ],
+   "benchmarks": [
+    "WebQSP",
+    "CWQ"
+   ]
+  }
+ }
 }

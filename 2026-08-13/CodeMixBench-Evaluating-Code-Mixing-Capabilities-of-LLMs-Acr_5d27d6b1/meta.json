@@ -4,5 +4,34 @@
  "title": "CodeMixBench-Evaluating-Code-Mixing-Capabilities-of-LLMs-Acr",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 07:12:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/88f942e9-30fa-40a3-abc0-3d6fbb82f197.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/88f942e9-30fa-40a3-abc0-3d6fbb82f197.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:45:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "code-mixing",
+    "multilingual LLM",
+    "benchmark",
+    "synthetic data generation",
+    "few-shot learning",
+    "cross-lingual"
+   ],
+   "field": "多语言大语言模型评测",
+   "innovations": [
+    "首个覆盖18语言8任务的代码混合LLM综合评测基准CodeMixBench",
+    "首次将词汇替换与GPT-4提示结合的大规模合成数据管线",
+    "词级指标+语义相似度+LLM对齐的多级自动化数据过滤机制"
+   ],
+   "benchmarks": [
+    "CodeMixBench",
+    "LinCE",
+    "GLUECoS",
+    "CM-MMLU",
+    "CM-GSM8K",
+    "CM-TruthfulQA"
+   ]
+  }
+ }
 }

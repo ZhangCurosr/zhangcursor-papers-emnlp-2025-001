@@ -4,5 +4,37 @@
  "title": "Code-to-Think-Think-to-Code-A-Survey-on-Code-Enhanced-Reason",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-13 14:56:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f17cbfdd-b0f4-41ed-8320-d5853b5a8520.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f17cbfdd-b0f4-41ed-8320-d5853b5a8520.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:45:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "代码增强推理",
+    "推理驱动代码智能",
+    "大语言模型",
+    "程序辅助推理",
+    "代码代理",
+    "工具集成推理",
+    "SWE-bench"
+   ],
+   "field": "代码与大模型推理的协同机制",
+   "innovations": [
+    "构建代码与推理双向增强的统一taxonomy框架，系统梳理从训练到生成全周期的协同机制",
+    "揭示代码作为结构化推理媒介的多维作用路径，包括单次执行、动态集成与非可执行表示",
+    "系统追踪代码智能从直接生成到交互编程再到自主代理的三阶段演进脉络"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH",
+    "SVAMP",
+    "HumanEval",
+    "MBPP",
+    "SWE-Bench (Lite)",
+    "SWE-Bench Verified",
+    "SWE-Bench Multimodal"
+   ]
+  }
+ }
 }

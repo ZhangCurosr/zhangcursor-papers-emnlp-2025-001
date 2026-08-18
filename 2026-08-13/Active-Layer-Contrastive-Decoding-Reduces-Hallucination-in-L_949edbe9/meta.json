@@ -4,5 +4,33 @@
  "title": "Active-Layer-Contrastive-Decoding-Reduces-Hallucination-in-L",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 07:12:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3362707e-7bb1-42d7-9b38-55640bee11df.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3362707e-7bb1-42d7-9b38-55640bee11df.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:40:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hallucination",
+    "contrastive decoding",
+    "reinforcement learning",
+    "sequence-level optimization",
+    "large language models",
+    "decoding strategies"
+   ],
+   "field": "大语言模型推理优化",
+   "innovations": [
+    "将解码建模为序列级 MDP 并用离线 RL 学习对比激活策略",
+    "BCQ 框架下的两阶段离线训练（行为克隆+约束Q学习）",
+    "非对称序列级奖励设计平衡精确性与召回率"
+   ],
+   "benchmarks": [
+    "TruthfulQA",
+    "LongFact",
+    "StrategyQA",
+    "GSM8K",
+    "Package Hallucination"
+   ]
+  }
+ }
 }

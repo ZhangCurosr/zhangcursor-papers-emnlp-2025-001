@@ -4,5 +4,34 @@
  "title": "DSCD-Large-Language-Model-Detoxification-with-Self-Constrain",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-08-13 07:12:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ba606538-a5bd-44d2-b5c2-49c61a396516.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ba606538-a5bd-44d2-b5c2-49c61a396516.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:46:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM detoxification",
+    "self-constrained decoding",
+    "early exit",
+    "token-level localization",
+    "safe decoding",
+    "knowledge editing"
+   ],
+   "field": "大模型安全与对齐",
+   "innovations": [
+    "提出token级毒性区域定位替代序列级定位，实现更精准的自约束解毒",
+    "设计双模式DSCD（MODE-1动态高精度/MODE-2静态高效率）兼顾性能与部署效率",
+    "无需参数微调且可插拔集成，与DINM/SafeDecoding组合达到SOTA解毒效果"
+   ],
+   "benchmarks": [
+    "SafeEdit",
+    "AlpacaEval",
+    "TruthfulQA",
+    "HarmfulQA",
+    "DangerousQA",
+    "Advbench"
+   ]
+  }
+ }
 }

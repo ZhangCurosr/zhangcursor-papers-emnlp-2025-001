@@ -4,5 +4,36 @@
  "title": "Comparing-Specialised-Small-and-General-Large-Language-Model",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-13 14:55:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cdc7ea7e-a5e9-44ee-aa28-bf6bb689ac38.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cdc7ea7e-a5e9-44ee-aa28-bf6bb689ac38.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:46:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "数据效率",
+    "文本分类",
+    "指令微调",
+    "上下文学习",
+    "性能方差",
+    "模型比较",
+    "小模型",
+    "大语言模型"
+   ],
+   "field": "高效NLP学习与模型效率分析",
+   "innovations": [
+    "提出双重突破点（平均性能与方差约束）量化专业化小模型超越通用大模型的样本阈值",
+    "在可比FLOPs约束下系统对比微调/提示/上下文学习/指令微调四种方法的数据效率",
+    "首次实证评估4-bit量化对通用大模型性能及方差的影响，发现其对比较结论几乎无扰动"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "SuperGLUE",
+    "AG News",
+    "TREC",
+    "SNIPS",
+    "DBPedia"
+   ]
+  }
+ }
 }

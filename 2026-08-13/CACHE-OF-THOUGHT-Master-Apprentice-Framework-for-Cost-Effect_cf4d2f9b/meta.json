@@ -4,5 +4,29 @@
  "title": "CACHE-OF-THOUGHT-Master-Apprentice-Framework-for-Cost-Effect",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-13 07:12:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7ad9d3ea-6a14-4e9b-bc71-3244d765ab6d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7ad9d3ea-6a14-4e9b-bc71-3244d765ab6d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:42:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision Language Models",
+    "In-context Learning",
+    "Multi-modal Retrieval",
+    "Cost-effective Inference",
+    "Master-Apprentice Framework"
+   ],
+   "field": "多模态大模型推理优化",
+   "innovations": [
+    "提出主从协作框架，缓存大模型回答并通过多模态检索辅助小模型推理",
+    "首次系统评估针对长文本 VQA 的多模态检索与上下文学习",
+    "动态缓存结合模型复用器实现成本-性能动态平衡"
+   ],
+   "benchmarks": [
+    "MMMU",
+    "VL-ICL"
+   ]
+  }
+ }
 }

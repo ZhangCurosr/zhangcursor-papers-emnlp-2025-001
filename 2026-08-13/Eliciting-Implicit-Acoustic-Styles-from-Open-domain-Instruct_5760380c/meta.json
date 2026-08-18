@@ -4,5 +4,32 @@
  "title": "Eliciting-Implicit-Acoustic-Styles-from-Open-domain-Instruct",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3899d2a9-78b4-4aec-9d9d-7de6094edca4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3899d2a9-78b4-4aec-9d9d-7de6094edca4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:48:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可控语音生成",
+    "开放域指令",
+    "多模态大模型",
+    "知识检索增强",
+    "扩散模型",
+    "多维验证器",
+    "隐式风格推断"
+   ],
+   "field": "开放域可控语音合成",
+   "innovations": [
+    "知识增强的多模态LLM隐式声学风格推断（混合检索BM25+稠密向量）",
+    "双层门控注意力风格融合机制（内容+说话人→基础表征，再注入风格因子）",
+    "多维验证器驱动的RL自优化框架（解码状态/频谱结构/风格一致性三层反馈）"
+   ],
+   "benchmarks": [
+    "PromptSpeech",
+    "SpeechCraft",
+    "HPSC"
+   ]
+  }
+ }
 }

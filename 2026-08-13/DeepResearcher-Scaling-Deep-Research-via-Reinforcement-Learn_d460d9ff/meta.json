@@ -4,5 +4,35 @@
  "title": "DeepResearcher-Scaling-Deep-Research-via-Reinforcement-Learn",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 07:10:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5304d69c-8b8b-4457-a5ba-89f1587cdddc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5304d69c-8b8b-4457-a5ba-89f1587cdddc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:47:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reinforcement learning",
+    "web search agent",
+    "deep research",
+    "GRPO",
+    "multi-agent",
+    "open-domain QA"
+   ],
+   "field": "LLM agent with tool use",
+   "innovations": [
+    "首个真实web环境端到端RL训练框架",
+    "多agent浏览架构与主agent策略解耦",
+    "涌现规划/交叉验证/反思等认知行为"
+   ],
+   "benchmarks": [
+    "NQ",
+    "TQ",
+    "HotpotQA",
+    "2Wiki",
+    "MuSiQue",
+    "Bamboogle",
+    "PopQA"
+   ]
+  }
+ }
 }

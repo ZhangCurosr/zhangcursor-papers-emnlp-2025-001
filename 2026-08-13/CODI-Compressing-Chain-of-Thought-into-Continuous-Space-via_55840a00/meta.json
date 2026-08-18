@@ -4,5 +4,33 @@
  "title": "CODI-Compressing-Chain-of-Thought-into-Continuous-Space-via",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 07:11:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/74df5ba7-f5d5-4989-93c6-cf4da4b57851.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/74df5ba7-f5d5-4989-93c6-cf4da4b57851.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:44:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Chain-of-Thought",
+    "Implicit Reasoning",
+    "Self-Distillation",
+    "Continuous Space",
+    "Model Compression",
+    "Efficient Inference"
+   ],
+   "field": "大模型高效推理与知识蒸馏",
+   "innovations": [
+    "提出单次自蒸馏框架，将显式CoT压缩至连续隐空间，避免课程学习遗忘",
+    "创新性地使用单Token隐藏状态对齐实现高效的跨模态知识蒸馏",
+    "在GPT-2规模上首次实现隐式CoT性能匹敌显式CoT，压缩率最高达8.2倍"
+   ],
+   "benchmarks": [
+    "GSM8k",
+    "SVAMP",
+    "GSM-Hard",
+    "MultiArith",
+    "CommonsenseQA"
+   ]
+  }
+ }
 }

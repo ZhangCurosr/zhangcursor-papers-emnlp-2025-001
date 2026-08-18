@@ -4,5 +4,33 @@
  "title": "COCO-Tree-COmpositional-Hierarchical-COncept-Trees-for-Enhan",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/db6bd8ba-f7ec-4795-bf3e-582de6e3a219.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/db6bd8ba-f7ec-4795-bf3e-582de6e3a219.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:44:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "vision-language models",
+    "compositionality",
+    "neurosymbolic reasoning",
+    "concept trees",
+    "System-2 reasoning",
+    "multimodal reasoning"
+   ],
+   "field": "视觉语言模型组合推理",
+   "innovations": [
+    "提出COCO-Tree框架，通过LLM生成层次化神经符号概念树增强VLM组合推理",
+    "设计复合视觉-语言评分机制平衡语言先验与视觉grounding",
+    "提出束搜索式路径查找策略并融合System-1/System-2输出",
+    "在资源受限设置下（同规模8B LLM）超越高资源方法并提供可解释推理路径"
+   ],
+   "benchmarks": [
+    "Winoground",
+    "EqBench",
+    "ColorSwap",
+    "SugarCrepe"
+   ]
+  }
+ }
 }

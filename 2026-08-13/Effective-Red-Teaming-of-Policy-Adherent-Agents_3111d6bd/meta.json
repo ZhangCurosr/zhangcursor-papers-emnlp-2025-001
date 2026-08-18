@@ -4,5 +4,30 @@
  "title": "Effective-Red-Teaming-of-Policy-Adherent-Agents",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 07:12:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5630a65a-f41e-42ef-bc04-231abe6c8333.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5630a65a-f41e-42ef-bc04-231abe6c8333.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:48:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "red-teaming",
+    "policy-adherent agents",
+    "LLM safety",
+    "adversarial attacks",
+    "benchmark evaluation",
+    "customer service agents"
+   ],
+   "field": "LLM安全与红队评估",
+   "innovations": [
+    "提出CRAFT多智能体红队框架，通过策略感知推理和反事实欺骗诱导策略违规",
+    "将任务完成基准转换为安全评测基准的方法论，通过策略无关智能体提取违规动作集合",
+    "发现强攻击者能力与目标智能体鲁棒性无正相关的反直觉现象"
+   ],
+   "benchmarks": [
+    "τ-bench",
+    "τ-break"
+   ]
+  }
+ }
 }

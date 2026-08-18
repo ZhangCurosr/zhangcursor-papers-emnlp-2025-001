@@ -4,5 +4,34 @@
  "title": "Anchoring-Guidance-Fine-Tuning-AnGFT-Elevating-Professional",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bd3e0293-d126-499c-be44-f539c1a72e26.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bd3e0293-d126-499c-be44-f539c1a72e26.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:41:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "角色扮演对话代理",
+    "知识错位",
+    "锚定效应",
+    "系统提示",
+    "领域知识激活",
+    "大模型微调"
+   ],
+   "field": "角色扮演对话智能体",
+   "innovations": [
+    "提出AnGFT两阶段框架，利用锚定效应建立系统提示与领域知识的强关联",
+    "设计基于LLM Judge的专业评估体系（RH/RT/RC/RF四维度）",
+    "验证了锚定机制在多轮对话中缓解知识漂移的有效性"
+   ],
+   "benchmarks": [
+    "RAIDEN",
+    "Huatuo",
+    "PubMedQA",
+    "Lawyer-LLaMA",
+    "FinQA",
+    "ChatMusician"
+   ]
+  }
+ }
 }

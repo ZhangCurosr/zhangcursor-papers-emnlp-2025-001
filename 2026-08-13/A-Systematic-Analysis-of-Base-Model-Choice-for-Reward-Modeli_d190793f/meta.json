@@ -4,5 +4,34 @@
  "title": "A-Systematic-Analysis-of-Base-Model-Choice-for-Reward-Modeli",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-13 14:56:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fa0b8010-fbca-4b19-87f8-9becffc2633a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fa0b8010-fbca-4b19-87f8-9becffc2633a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:40:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reward modeling",
+    "base model selection",
+    "RLHF",
+    "model evaluation",
+    "benchmark prediction"
+   ],
+   "field": "大语言模型对齐与评估",
+   "innovations": [
+    "系统量化基础模型选择对奖励建模性能的影响（最高14%提升）",
+    "提出基于5个公开Benchmark的回归预测框架，提升模型选择覆盖率18%",
+    "解耦分析后训练各阶段（SFT/DPO/RLVR）对奖励建模的边际贡献"
+   ],
+   "benchmarks": [
+    "RewardBench",
+    "HelpSteer2",
+    "ANLI",
+    "MBPP+",
+    "HumanEval+",
+    "ToxiGen",
+    "IFEval"
+   ]
+  }
+ }
 }

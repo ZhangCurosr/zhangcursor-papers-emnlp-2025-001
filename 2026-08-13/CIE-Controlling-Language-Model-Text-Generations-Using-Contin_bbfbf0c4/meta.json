@@ -4,5 +4,29 @@
  "title": "CIE-Controlling-Language-Model-Text-Generations-Using-Contin",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-08-13 07:12:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d3fab7a9-794f-4a92-9a4b-d7a7cca71490.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d3fab7a9-794f-4a92-9a4b-d7a7cca71490.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:43:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可控文本生成",
+    "连续控制信号",
+    "语言模型对齐",
+    "响应长度控制",
+    "插值嵌入"
+   ],
+   "field": "可控语言模型生成",
+   "innovations": [
+    "提出CIE框架，通过2×D额外参数学习低/高边界embedding并线性插值实现连续属性控制",
+    "在响应长度控制任务上显著超越prompting基线与离散方法RULER，CPR@0.05最高提升30.40pp"
+   ],
+   "benchmarks": [
+    "VERBOSITYCTRL_val",
+    "VERBOSITYCTRL_range",
+    "Alpaca-LI"
+   ]
+  }
+ }
 }

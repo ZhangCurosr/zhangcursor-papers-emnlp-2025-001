@@ -4,5 +4,31 @@
  "title": "BBScoreV2-Learning-Time-Evolution-and-Latent-Alignment-from",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 07:12:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/713dd4bd-58c1-4f8b-923a-fdbfd1549ed9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/713dd4bd-58c1-4f8b-923a-fdbfd1549ed9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:42:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "文本连贯性评估",
+    "布朗桥",
+    "随机表示",
+    "AI生成检测",
+    "对比学习",
+    "长文本建模"
+   ],
+   "field": "自然语言处理-文本评估与连贯性",
+   "innovations": [
+    "提出基于布朗桥对数似然的BBScoreV2指标，同时捕捉时序与结构依赖",
+    "揭示LLM聚类embedding可通过对比学习编码为时间有序随机轨迹",
+    "设计Mixed Shuffle测试验证跨文章/跨长度的评估泛化能力"
+   ],
+   "benchmarks": [
+    "WikiSection Shuffle Task",
+    "Mixed Shuffle Test",
+    "HC3 Human-AI Discrimination"
+   ]
+  }
+ }
 }

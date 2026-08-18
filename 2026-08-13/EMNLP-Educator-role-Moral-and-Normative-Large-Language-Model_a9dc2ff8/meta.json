@@ -4,5 +4,32 @@
  "title": "EMNLP-Educator-role-Moral-and-Normative-Large-Language-Model",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-13 07:11:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3e294f80-8f18-4f55-b806-631865f2a4e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3e294f80-8f18-4f55-b806-631865f2a4e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:47:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Simulating Professions",
+    "教师角色LLM",
+    "道德评估",
+    "软提示注入",
+    "人格测量",
+    "能力-安全悖论"
+   ],
+   "field": "大语言模型伦理与安全评估",
+   "innovations": [
+    "提出EMNLP三层框架，首次系统评估教师角色扮演LLM的人格、道德阶段与安全脆弱性",
+    "发现推理能力增强的模型更易受软提示注入攻击的能力-安全悖论",
+    "构建88个教师专属道德困境集与CPST-E扩展量表，支持中英双语跨文化对比"
+   ],
+   "benchmarks": [
+    "CPST-E",
+    "HEXACO-60",
+    "Moral Stage Score (MSS)",
+    "Harmful Response Rate (HRR)"
+   ]
+  }
+ }
 }

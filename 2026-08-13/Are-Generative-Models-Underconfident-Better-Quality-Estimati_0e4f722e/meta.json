@@ -4,5 +4,37 @@
  "title": "Are-Generative-Models-Underconfident-Better-Quality-Estimati",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/14b9ddb8-ce02-4a8b-8702-90c91ddef83a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/14b9ddb8-ce02-4a8b-8702-90c91ddef83a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:41:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Quality Estimation",
+    "模型置信度",
+    "生成式模型",
+    "概率分布分析",
+    "无监督质量估计",
+    "主导token簇",
+    "机器翻译",
+    "语音翻译"
+   ],
+   "field": "自然语言生成质量评估",
+   "innovations": [
+    "揭示自由文本生成任务中模型概率 underconfident 现象及其与歧义性的关系",
+    "提出 BOOSTEDPROB 方法，通过 jump-cut 启发式识别主导 token 簇并boost置信度，零额外复杂度",
+    "系统性验证该方法在 ST/MT/Sum/QA 多任务上显著优于原始概率和熵基线，部分场景接近监督QE"
+   ],
+   "benchmarks": [
+    "Fleurs",
+    "WMT22 General",
+    "HJQE",
+    "XSum",
+    "GSM8K",
+    "SciEx",
+    "ParaCrawl"
+   ]
+  }
+ }
 }

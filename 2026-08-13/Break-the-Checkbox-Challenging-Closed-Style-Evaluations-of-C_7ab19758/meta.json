@@ -4,5 +4,32 @@
  "title": "Break-the-Checkbox-Challenging-Closed-Style-Evaluations-of-C",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-13 14:56:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ffba8fb5-ae34-4ed3-8f92-f315a68ef678.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ffba8fb5-ae34-4ed3-8f92-f315a68ef678.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:43:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "文化对齐",
+    "LLM评估",
+    "World Values Survey",
+    "Hofstede文化维度",
+    "封闭式评估",
+    "开放-ended生成",
+    "位置偏见",
+    "低资源语言"
+   ],
+   "field": "跨文化NLP与LLM评估",
+   "innovations": [
+    "设计了四种不同约束程度的系统性探测方法（FC/FR/FO/FU）对比评估LLM文化对齐",
+    "揭示了选项顺序敏感性是现有MCQ评估框架的根本缺陷",
+    "发现无约束设置下'不可分类输出'本身是世俗理性社会文化价值观的有效代理信号"
+   ],
+   "benchmarks": [
+    "World Values Survey (WVS) Wave 7",
+    "Hofstede Cultural Dimensions (VSM13)"
+   ]
+  }
+ }
 }

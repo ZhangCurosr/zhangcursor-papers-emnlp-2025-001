@@ -4,5 +4,32 @@
  "title": "AdaRewriter-Unleashing-the-Power-of-Prompting-based-Conversa",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-08-13 07:12:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3a6e4daf-d5a1-4a11-bafb-ce0b0bf24d87.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3a6e4daf-d5a1-4a11-bafb-ce0b0bf24d87.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:40:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Conversational Query Reformulation",
+    "Test-time Adaptation",
+    "Reward Model",
+    "Best-of-N",
+    "Black-box LLM"
+   ],
+   "field": "Conversational Search",
+   "innovations": [
+    "首次系统分析测试时Best-of-N范式在查询重写中的潜力",
+    "提出轻量级对比排序奖励模型用于推理时候选筛选",
+    "实现黑盒LLM系统的即插即用测试时适配框架"
+   ],
+   "benchmarks": [
+    "TopiOCQA",
+    "QReCC",
+    "TREC CAsT 2019",
+    "TREC CAsT 2020",
+    "TREC CAsT 2021"
+   ]
+  }
+ }
 }

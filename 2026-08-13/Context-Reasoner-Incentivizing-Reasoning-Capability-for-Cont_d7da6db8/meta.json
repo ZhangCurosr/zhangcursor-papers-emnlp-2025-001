@@ -4,5 +4,34 @@
  "title": "Context-Reasoner-Incentivizing-Reasoning-Capability-for-Cont",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 07:11:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2382a53c-904c-46bc-9848-11ed813d5bf9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2382a53c-904c-46bc-9848-11ed813d5bf9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:46:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM安全",
+    "隐私保护",
+    "情境完整性",
+    "强化学习",
+    "法律合规",
+    "PPO",
+    "规则奖励"
+   ],
+   "field": "LLM安全与隐私",
+   "innovations": [
+    "基于CI理论将LLM安全隐私问题形式化为合规推理问题并结合PPO规则奖励训练",
+    "构建分层法规结构与268k triplet情境感知案例库实现系统化法律对齐",
+    "证明上下文合规推理可正向泛化至通用推理与多领域法律知识"
+   ],
+   "benchmarks": [
+    "PrivaCI-Bench",
+    "LegalBench",
+    "LawBench",
+    "MMLU",
+    "TruthfulQA"
+   ]
+  }
+ }
 }

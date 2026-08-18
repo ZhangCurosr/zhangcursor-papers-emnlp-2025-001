@@ -4,5 +4,31 @@
  "title": "CondAmbigQA-A-Benchmark-and-Dataset-for-Conditional-Ambiguou",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 07:12:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f61a60f-8176-4b0b-bd5b-c4defe1ad54f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f61a60f-8176-4b0b-bd5b-c4defe1ad54f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:45:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "歧义问答",
+    "条件推理",
+    "检索增强生成",
+    "基准数据集",
+    "幻觉分析",
+    "评估指标"
+   ],
+   "field": "开放域问答与歧义消解",
+   "innovations": [
+    "首次将隐含假设识别为问答歧义根源并提出条件表征框架",
+    "构建2000实例的条件-答案-引用三元组结构化数据集",
+    "设计条件感知的多维评估指标体系含生成数量校准"
+   ],
+   "benchmarks": [
+    "CondAmbigQA",
+    "ALCE-ASQA",
+    "AmbigNQ"
+   ]
+  }
+ }
 }

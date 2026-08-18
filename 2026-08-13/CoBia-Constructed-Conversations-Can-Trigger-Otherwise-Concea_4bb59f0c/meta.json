@@ -4,5 +4,32 @@
  "title": "CoBia-Constructed-Conversations-Can-Trigger-Otherwise-Concea",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 07:11:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/42067eb7-7a50-4d95-836f-6e0a1f411034.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/42067eb7-7a50-4d95-836f-6e0a1f411034.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:44:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM安全",
+    "社会偏见",
+    "对抗攻击",
+    "对话历史",
+    "jailbreak",
+    "偏见评估"
+   ],
+   "field": "大语言模型安全与偏见评估",
+   "innovations": [
+    "提出CoBia轻量级对抗攻击框架，仅需单次查询即可通过构建对话历史触发LLM隐性社会偏见",
+    "设计HCC与SCC互补两种攻击设置，系统评估LLM在对话中的偏见恢复能力",
+    "构建覆盖112个社会群体的CoBia数据集，整合RedditBias、SBIC、StereoSet三个来源"
+   ],
+   "benchmarks": [
+    "CoBia数据集",
+    "Bias Judge",
+    "Granite Judge",
+    "NLI Judge"
+   ]
+  }
+ }
 }

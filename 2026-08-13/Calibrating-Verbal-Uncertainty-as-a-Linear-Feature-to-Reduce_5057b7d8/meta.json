@@ -4,5 +4,32 @@
  "title": "Calibrating-Verbal-Uncertainty-as-a-Linear-Feature-to-Reduce",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f0816f6b-6486-4a2d-97ef-a7f867fb149b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f0816f6b-6486-4a2d-97ef-a7f867fb149b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:43:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hallucination",
+    "uncertainty calibration",
+    "mechanistic interpretability",
+    "verbal uncertainty",
+    "semantic entropy",
+    "inference-time intervention",
+    "linear feature"
+   ],
+   "field": "大语言模型可信性与可解释性",
+   "innovations": [
+    "发现语言表达不确定性(VU)由表征空间中单一线性方向(VUF)控制，且跨模型/数据集一致",
+    "提出VU与SU联合的幻觉检测，利用probe支持prefill早期预测",
+    "提出无需微调的推理时干预方法MUC，沿VUF对齐VU-SU使自信幻觉平均下降约30%"
+   ],
+   "benchmarks": [
+    "TriviaQA",
+    "NQ-Open",
+    "PopQA"
+   ]
+  }
+ }
 }

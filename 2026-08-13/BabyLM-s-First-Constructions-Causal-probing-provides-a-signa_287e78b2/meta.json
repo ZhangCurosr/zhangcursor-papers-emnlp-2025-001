@@ -4,5 +4,32 @@
  "title": "BabyLM-s-First-Constructions-Causal-probing-provides-a-signa",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 07:12:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9f6a02fe-99b2-4556-8849-f1f04d586953.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9f6a02fe-99b2-4556-8849-f1f04d586953.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:42:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "构式语法",
+    "BabyLM",
+    "因果探测",
+    "低资源语言模型",
+    "语言习得",
+    "预训练模型评估"
+   ],
+   "field": "计算语言学与语言习得",
+   "innovations": [
+    "首次系统性验证低资源BabyLM在100M词内可习得多种复杂构式",
+    "发现构式表征能力与BabyLM下游性能强相关（r=0.78）",
+    "揭示抽象类别约束比固定词构式更易在低资源下习得的难度梯度"
+   ],
+   "benchmarks": [
+    "BabyLM Challenge 2024",
+    "CoGS",
+    "MAGPIE",
+    "CEC Dataset"
+   ]
+  }
+ }
 }

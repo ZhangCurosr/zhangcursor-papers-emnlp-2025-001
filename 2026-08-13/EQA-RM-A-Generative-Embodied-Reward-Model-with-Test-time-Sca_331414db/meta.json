@@ -4,5 +4,28 @@
  "title": "EQA-RM-A-Generative-Embodied-Reward-Model-with-Test-time-Sca",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 07:11:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9ff2e899-0b41-4ba1-86c7-93da47f11452.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9ff2e899-0b41-4ba1-86c7-93da47f11452.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:47:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Reward Model",
+    "Embodied Question Answering",
+    "Generative RM",
+    "Test-time Scaling",
+    "Contrastive RL"
+   ],
+   "field": "具身AI与奖励建模",
+   "innovations": [
+    "首个专为EQA设计的生成式多模态奖励模型EQA-RM",
+    "提出C-GRPO对比组相对策略优化训练策略",
+    "测试时缩放使小模型超越商用大模型评估精度"
+   ],
+   "benchmarks": [
+    "EQA REWARDBENCH"
+   ]
+  }
+ }
 }

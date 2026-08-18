@@ -4,5 +4,30 @@
  "title": "Dialect-SQL-An-Adaptive-Framework-for-Bridging-the-Dialect-G",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fd9bcecf-3019-4645-823a-4a86ee493377.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fd9bcecf-3019-4645-823a-4a86ee493377.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:47:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-SQL",
+    "SQL Dialect",
+    "ORM Code",
+    "Intermediate Language",
+    "Bootstrapping Data Synthesis",
+    "Large Language Models"
+   ],
+   "field": "Text-to-SQL与数据库交互",
+   "innovations": [
+    "首次引入ORM代码作为中间语言桥接Text-to-SQL方言差异，无需微调即可适配多数据库",
+    "提出可控引导式迭代合成方法从少量种子示例构建高质量Text-to-Code演示池",
+    "系统化验证ORM中间语言在五类主流关系数据库上的跨方言适配能力"
+   ],
+   "benchmarks": [
+    "Spider",
+    "BIRD"
+   ]
+  }
+ }
 }
