@@ -4,5 +4,30 @@
  "title": "WebInject-Prompt-Injection-Attack-to-Web-Agents",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 14:56:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/200add31-41e4-4d49-bd4d-b0c32a1721ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/200add31-41e4-4d49-bd4d-b0c32a1721ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:45:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prompt injection",
+    "web agents",
+    "adversarial attack",
+    "MLLM",
+    "visual adversarial",
+    "AI security"
+   ],
+   "field": "大语言模型安全与对抗攻击",
+   "innovations": [
+    "首个同时具备有效性、隐蔽性与现实可行性的网页端提示注入攻击框架",
+    "利用U-Net逼近不可微的网页到截图映射并结合可微降采样替代实现端到端优化",
+    "跨多显示器通用重叠区域扰动策略"
+   ],
+   "benchmarks": [
+    "10个网页数据集(5类真实+5类合成)",
+    "5个MLLM-based Web Agent (UI-TARS, Phi-4, Llama-3.2, Qwen2.5, Gemma-3)"
+   ]
+  }
+ }
 }

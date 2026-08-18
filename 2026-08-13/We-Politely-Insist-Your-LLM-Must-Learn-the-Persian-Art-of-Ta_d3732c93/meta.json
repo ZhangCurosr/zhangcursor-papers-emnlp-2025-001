@@ -4,5 +4,30 @@
  "title": "We-Politely-Insist-Your-LLM-Must-Learn-the-Persian-Art-of-Ta",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-08-13 14:56:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ce9892f9-e917-44c6-a2f8-f8aba31633fd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ce9892f9-e917-44c6-a2f8-f8aba31633fd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:45:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "culturally aware LLM",
+    "taarof",
+    "cross-cultural pragmatics",
+    "DPO alignment",
+    "low-resource cultural benchmarks",
+    "ritual politeness"
+   ],
+   "field": "跨文化LLM对齐与文化基准评估",
+   "innovations": [
+    "首个波斯Taarof仪式礼貌的计算形式化与开放基准TAAROFBENCH",
+    "揭示LLM在文化语用推理上的系统性西方中心偏差及礼貌指标失效",
+    "证明DPO微调可在小数据（532样本）下实现近母语水平的文化对齐（79.5%）"
+   ],
+   "benchmarks": [
+    "TAAROFBENCH",
+    "Polite-Guard"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Two-Heads-Are-Better-Than-One-Dual-Model-Verbal-Reflection-a",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 14:56:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/46b856d1-1e8b-4604-b599-3db5315bdcdf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/46b856d1-1e8b-4604-b599-3db5315bdcdf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:44:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ASAS",
+    "Dual-Model Framework",
+    "Verbal Reinforcement Learning",
+    "Preference Optimization",
+    "Automated Scoring",
+    "Reasoner-Critic"
+   ],
+   "field": "可解释自动评分与推理改进",
+   "innovations": [
+    "对比反思合成管道：通过结构化推理树路径差异自动生成节点级错误修正反馈",
+    "DARS双模型框架：独立Reasoner+Critic实现免oracle的迭代推理收敛",
+    "Critic规模主导 Scaling：增大Critic比增大Reasoner对性能提升贡献更大"
+   ],
+   "benchmarks": [
+    "ASAP 1",
+    "ASAP 2",
+    "ASAP 5",
+    "ASAP 6",
+    "Proprietary 1",
+    "Proprietary 2"
+   ]
+  }
+ }
 }

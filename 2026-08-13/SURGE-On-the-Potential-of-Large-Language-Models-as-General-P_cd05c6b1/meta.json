@@ -4,5 +4,10 @@
  "title": "SURGE-On-the-Potential-of-Large-Language-Models-as-General-P",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 14:56:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e8dbc4e4-f558-4db0-972c-deceefee569c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e8dbc4e4-f558-4db0-972c-deceefee569c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:46:09",
+  "chunks": 4
+ }
 }

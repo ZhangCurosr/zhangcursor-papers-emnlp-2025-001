@@ -4,5 +4,33 @@
  "title": "Seeing-More-Saying-More-Lightweight-Language-Experts-are-Dyn",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-13 14:55:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ddfef6ca-fa8d-4f96-957e-3ca1e9877913.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ddfef6ca-fa8d-4f96-957e-3ca1e9877913.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:45:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "动态令牌压缩",
+    "视频语言模型",
+    "语义密度感知",
+    "轻量级语言专家",
+    "高效多模态"
+   ],
+   "field": "多模态大模型效率优化",
+   "innovations": [
+    "提出语言感知的动态令牌压缩器 CapPruner，利用语言序列长度自适应匹配视频语义密度",
+    "设计语义密度感知监督机制，以强 LVLM 提取关键视觉线索作为压缩目标",
+    "在保持竞争力的同时将 FLOPs 降低 49%"
+   ],
+   "benchmarks": [
+    "MVBench",
+    "Video-MME",
+    "MSVD-QA",
+    "MSRVTT-QA",
+    "ActivityNet-QA",
+    "TGIF-QA"
+   ]
+  }
+ }
 }
