@@ -4,5 +4,30 @@
  "title": "Interpretability-Analysis-of-Arithmetic-In-Context-Learning",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-13 07:12:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ed873898-b107-4c8b-946a-98804a21eb1e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ed873898-b107-4c8b-946a-98804a21eb1e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:43:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "in-context learning",
+    "arithmetic reasoning",
+    "activation patching",
+    "function vectors",
+    "LLM interpretability"
+   ],
+   "field": "大语言模型可解释性",
+   "innovations": [
+    "首次揭示三操作数算术任务中ICE信息的计算通路，证明模式一致性比算术正确性更关键",
+    "验证函数向量可从ICE中蒸馏模式信息并在零样本条件下恢复单示例性能",
+    "整合激活修补、信息流路由、EAP、logit lens与函数向量构建统一的ICE分析框架"
+   ],
+   "benchmarks": [
+    "Arithmetic-20",
+    "Arithmetic-1000"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "From-Reasoning-to-Answer-Empirical-Attention-Based-and-Mecha",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-08-13 07:12:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63244c1e-e630-4aaf-87da-62a2a60be24a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63244c1e-e630-4aaf-87da-62a2a60be24a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:41:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Large Reasoning Model",
+    "mechanistic interpretability",
+    "attention analysis",
+    "activation patching",
+    "DeepSeek R1",
+    "reasoning faithfulness"
+   ],
+   "field": "大型语言模型推理机制可解释性",
+   "innovations": [
+    "发现 Reasoning-Focus Heads 追踪推理进度并定位推理失败源",
+    "三层证据（实证-注意力-因果干预）闭合推理→答案的功能性依赖",
+    "构造 clean/corrupted 配对 + 残差流 patching 验证推理 token 可翻转答案"
+   ],
+   "benchmarks": [
+    "MATH-500",
+    "WildBench"
+   ]
+  }
+ }
 }

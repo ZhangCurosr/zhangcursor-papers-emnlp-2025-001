@@ -4,5 +4,34 @@
  "title": "LLMs-as-World-Models-Data-Driven-and-Human-Centered-Pre-Even",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 07:12:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8c1a8e7c-26d5-44df-873e-cbc9f32fd380.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8c1a8e7c-26d5-44df-873e-cbc9f32fd380.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:45:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM as World Model",
+    "地震灾害模拟",
+    "多模态推理",
+    "MMI 预测",
+    "震前评估",
+    "RAG",
+    "ICL",
+    "灾害风险管理"
+   ],
+   "field": "灾害信息学与多模态大模型",
+   "innovations": [
+    "提出将LLM作为虚拟传感器进行震前人类感知模拟的多模态框架",
+    "构建首个开放的多模态LLM地震模拟评测基准（整合地震/地理/建筑/社经/街景数据与DYFI标签）",
+    "揭示街景视觉输入对MMI预测的关键提升作用及RMSE与相关系数的不一致性"
+   ],
+   "benchmarks": [
+    "USGS DYFI (2014 Napa M6.0, 2019 Ridgecrest M7.1)",
+    "USGS ShakeMap",
+    "OpenStreetMap Building Data",
+    "American Community Survey (ACS)"
+   ]
+  }
+ }
 }

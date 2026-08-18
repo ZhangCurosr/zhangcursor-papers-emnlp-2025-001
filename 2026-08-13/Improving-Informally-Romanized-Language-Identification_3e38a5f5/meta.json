@@ -4,5 +4,31 @@
  "title": "Improving-Informally-Romanized-Language-Identification",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 07:12:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8232e23f-2605-4a3e-bf25-5483478fd62f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8232e23f-2605-4a3e-bf25-5483478fd62f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:43:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "language identification",
+    "romanized text",
+    "data synthesis",
+    "pair n-gram transliteration",
+    "low-resource NLP",
+    "South Asian languages",
+    "fastText",
+    "spell variation"
+   ],
+   "field": "多语言NLP / 语言识别",
+   "innovations": [
+    "从pair n-gram转写模型k-best输出采样生成带自然拼写变体的合成训练数据，显著提升罗马化LID性能",
+    "证明轻量fastText线性模型在高质量合成数据上可匹敌甚至超越大参数预训练mT5/BERT模型",
+    "系统揭示合成dev set的评估偏差问题并提出使用人工罗马化dev set进行可靠调参"
+   ],
+   "benchmarks": [
+    "Bhasha-Abhijnaanam (B-A) romanized LID benchmark"
+   ]
+  }
+ }
 }

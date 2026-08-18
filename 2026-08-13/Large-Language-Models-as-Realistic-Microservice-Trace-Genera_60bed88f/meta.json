@@ -4,5 +4,29 @@
  "title": "Large-Language-Models-as-Realistic-Microservice-Trace-Genera",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-13 14:55:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1992d8e9-6ee5-4078-9350-1801eeef64d3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1992d8e9-6ee5-4078-9350-1801eeef64d3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:45:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "微服务追踪",
+    "大语言模型",
+    "合成数据生成",
+    "递归图生成",
+    "指令微调"
+   ],
+   "field": "系统可观测性与合成追踪生成",
+   "innovations": [
+    "递归逐层生成微服务调用图",
+    "指令微调中加入中间推理步骤",
+    "合成追踪替代真实数据用于异常检测与缺失填充"
+   ],
+   "benchmarks": [
+    "Alibaba v2022 微服务追踪数据集",
+    "Alibaba 2018 集群批量任务数据集"
+   ]
+  }
+ }
 }

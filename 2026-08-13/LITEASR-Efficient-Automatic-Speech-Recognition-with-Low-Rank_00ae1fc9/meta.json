@@ -4,5 +4,32 @@
  "title": "LITEASR-Efficient-Automatic-Speech-Recognition-with-Low-Rank",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fa6ff716-74f4-480e-b75d-c4951750777e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fa6ff716-74f4-480e-b75d-c4951750777e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:44:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "automatic speech recognition",
+    "model compression",
+    "low-rank approximation",
+    "Whisper",
+    "encoder efficiency",
+    "PCA activation",
+    "FlashAttention"
+   ],
+   "field": "高效语音识别与模型压缩",
+   "innovations": [
+    "利用激活低秩性对 ASR 编码器进行后训练低秩分解，100 条校准数据即可实现 >40% 体积压缩且几乎无损",
+    "将低秩近似推广至自注意力并重排 Q/K/V 计算次序，结合 Triton 定制内核进一步降 FLOPs",
+    "提出方差阈值与计算量双约束的逐层自适应 rank 选择机制，构建精度-效率帕累托前沿"
+   ],
+   "benchmarks": [
+    "ESB (VoxPopuli, AMI, Earnings-22, GigaSpeech, LibriSpeech, SPGISpeech, TED-LIUM)",
+    "MLS (French, German)",
+    "JSUT basic5000 (Japanese)"
+   ]
+  }
+ }
 }

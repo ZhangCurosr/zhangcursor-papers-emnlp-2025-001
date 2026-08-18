@@ -4,5 +4,10 @@
  "title": "LINGGYM-How-Far-Are-LLMs-from-Thinking-Like-Field-Linguists",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f9ced319-b431-45d9-a925-417f1891666b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f9ced319-b431-45d9-a925-417f1891666b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:45:36",
+  "chunks": 1
+ }
 }

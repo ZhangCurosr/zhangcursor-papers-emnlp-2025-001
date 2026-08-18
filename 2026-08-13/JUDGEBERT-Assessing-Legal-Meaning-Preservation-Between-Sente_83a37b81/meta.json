@@ -4,5 +4,36 @@
  "title": "JUDGEBERT-Assessing-Legal-Meaning-Preservation-Between-Sente",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-13 14:55:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2585dd8e-a5a0-4f14-9e76-3fd2f55166e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2585dd8e-a5a0-4f14-9e76-3fd2f55166e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:43:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "法律文本简化",
+    "语义保留评估",
+    "JUDGEBERT",
+    "FrJUDGE",
+    "法语法律NLP",
+    "可训练评估指标",
+    "自动文本简化"
+   ],
+   "field": "法律自然语言处理",
+   "innovations": [
+    "提出首个面向法语法律领域的可训练语义保留评估指标 JUDGEBERT，Pearson 0.97 显著优于基线",
+    "构建 FrJUDGE 数据集：297 对人工标注的法语保险合同简化句对及 LMP 标注规范",
+    "引入 sanity check 数据增强策略，使指标同时通过相同句/不相关句的极端逻辑约束"
+   ],
+   "benchmarks": [
+    "FrJUDGE",
+    "BERTScore",
+    "MeaningBERT",
+    "SBERT",
+    "LENS",
+    "QuestEval",
+    "Coverage"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "FinMTEB-Finance-Massive-Text-Embedding-Benchmark",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4eb35631-6254-48e1-a7a4-89857d593bf5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4eb35631-6254-48e1-a7a4-89857d593bf5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:40:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "文本嵌入",
+    "金融NLP",
+    "领域适配",
+    "基准测试",
+    "对比学习",
+    "合成数据"
+   ],
+   "field": "领域自适应文本嵌入",
+   "innovations": [
+    "提出FinMTEB首个金融领域综合嵌入基准（7类任务64数据集）",
+    "开发Fin-E5通过100步高效领域适配达到SOTA",
+    "揭示通用基准与金融任务性能解耦及BoW反常优势现象"
+   ],
+   "benchmarks": [
+    "FinMTEB",
+    "MTEB",
+    "FinanceBench",
+    "FiQA",
+    "FINAL"
+   ]
+  }
+ }
 }

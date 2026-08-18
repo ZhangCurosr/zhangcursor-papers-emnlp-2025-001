@@ -4,5 +4,33 @@
  "title": "Exploring-Pretraining-via-Active-Forgetting-for-Improving-Cr",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 14:56:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4040cb42-799e-4405-8656-8c86e76c810f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4040cb42-799e-4405-8656-8c86e76c810f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:40:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨语言迁移",
+    "主动遗忘",
+    "多语言语言模型",
+    "decoder架构",
+    "语言适配"
+   ],
+   "field": "多语言大语言模型",
+   "innovations": [
+    "首次将主动遗忘预训练策略应用于decoder-only LLMs以改善跨语言迁移",
+    "揭示标准词汇扩展适配方法会损害非适配语言性能",
+    "证明主动遗忘可产生更高质量的多语言表征并提升下游任务表现"
+   ],
+   "benchmarks": [
+    "Belebele",
+    "MLQA",
+    "XCOPA",
+    "XLSUM",
+    "XQuAD",
+    "FLORES-200翻译"
+   ]
+  }
+ }
 }

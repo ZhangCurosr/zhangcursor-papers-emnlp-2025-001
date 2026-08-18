@@ -4,5 +4,10 @@
  "title": "LLM-Bias-Detection-and-Mitigation-through-the-Lens-of-Desire",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/64b1dec9-793d-4581-93a5-e2fdf56d21de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/64b1dec9-793d-4581-93a5-e2fdf56d21de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:45:16",
+  "chunks": 1
+ }
 }

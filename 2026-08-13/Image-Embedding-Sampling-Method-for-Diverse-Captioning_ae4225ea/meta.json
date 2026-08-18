@@ -4,5 +4,30 @@
  "title": "Image-Embedding-Sampling-Method-for-Diverse-Captioning",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/19f10120-39ce-44e8-99b4-3f349c6efb2a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/19f10120-39ce-44e8-99b4-3f349c6efb2a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:42:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "image captioning",
+    "diversity",
+    "vision-language models",
+    "hierarchical representation",
+    "segment anything model"
+   ],
+   "field": "多模态表示学习与图像描述生成",
+   "innovations": [
+    "提出免训练的HBoP框架，通过分层图像嵌入采样增强小VLM的描述多样性",
+    "设计三级分层结构（全局/区域/细粒度）控制描述粒度，平衡多样性与相关性",
+    "利用全图embedding采样而非裁剪，保留上下文信息同时提升多样性指标"
+   ],
+   "benchmarks": [
+    "MSCOCO",
+    "Flickr30K",
+    "Nocaps"
+   ]
+  }
+ }
 }

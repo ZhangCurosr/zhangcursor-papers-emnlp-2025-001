@@ -4,5 +4,35 @@
  "title": "Learning-from-Few-Samples-A-Novel-Approach-for-High-Quality",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/de99b5d7-332d-4268-a761-4415728d218f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/de99b5d7-332d-4268-a761-4415728d218f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:46:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "few-shot learning",
+    "malicious code generation",
+    "GAN",
+    "large language model",
+    "SQL injection detection",
+    "adversarial training",
+    "semi-supervised learning"
+   ],
+   "field": "安全AI / 恶意代码生成与检测",
+   "innovations": [
+    "提出GANGRL-LLM框架，将判别器概率对数作为稠密奖励信号引导LLM生成高质量SQLi代码",
+    "设计双层GAN结构含代码词向量分布模拟器与分类器，结合特征匹配正则化提升生成多样性",
+    "引入自适应指数衰减奖励权重机制，平衡少样本场景下生成器探索与训练稳定性"
+   ],
+   "benchmarks": [
+    "SQLi Dataset (sanshui123, Shah)",
+    "Gamma-TF-IDF",
+    "ASTNN",
+    "Trident",
+    "EP-CNN",
+    "SQL-LSTM"
+   ]
+  }
+ }
 }

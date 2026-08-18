@@ -4,5 +4,30 @@
  "title": "From-Schema-to-State-Zero-Shot-Scheme-Only-Dialogue-State-Tr",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 07:11:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3d5556d8-c703-4d5f-8d7e-e17867b090ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3d5556d8-c703-4d5f-8d7e-e17867b090ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:41:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Dialogue State Tracking",
+    "Zero-shot",
+    "Synthetic Data",
+    "Knowledge Distillation",
+    "Chain-of-Thought",
+    "Task-Oriented Dialogue"
+   ],
+   "field": "任务型对话状态追踪",
+   "innovations": [
+    "动态复杂度提示驱动的无模板合成对话数据生成框架",
+    "两阶段逐步蒸馏：先生成形式化表示再生成 CoT 状态推理",
+    "有效缩小小模型与闭源大模型在零样本 scheme-only DST 上的性能差距"
+   ],
+   "benchmarks": [
+    "MultiWOZ 2.1",
+    "MultiWOZ 2.4"
+   ]
+  }
+ }
 }

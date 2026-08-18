@@ -4,5 +4,32 @@
  "title": "Emotion-Transfer-with-Enhanced-Prototype-for-Unseen-Emotion",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 07:11:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4605a784-83c7-41f9-bf4b-aa5cfcae2afc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4605a784-83c7-41f9-bf4b-aa5cfcae2afc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:40:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话情感识别",
+    "零样本学习",
+    "原型网络",
+    "LLM增强",
+    "情感转移",
+    "未见情感识别"
+   ],
+   "field": "对话情感识别",
+   "innovations": [
+    "首次提出UERC任务并建立跨数据集评测基准",
+    "LLM增强的隐式情感描述方法提升原型语义质量",
+    "参数无关高斯自注意力避免零样本过拟合",
+    "改进Viterbi解码实现情感转移概率的跨类别迁移"
+   ],
+   "benchmarks": [
+    "IEMOCAP",
+    "EmoryNLP",
+    "MELD"
+   ]
+  }
+ }
 }

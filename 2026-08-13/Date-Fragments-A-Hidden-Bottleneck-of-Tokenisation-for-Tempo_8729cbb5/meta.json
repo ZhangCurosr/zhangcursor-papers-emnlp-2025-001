@@ -4,5 +4,31 @@
  "title": "Date-Fragments-A-Hidden-Bottleneck-of-Tokenisation-for-Tempo",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f0f2cbf4-a22a-4d3b-9bac-2424e1cda786.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f0f2cbf4-a22a-4d3b-9bac-2424e1cda786.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:40:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tokenisation",
+    "temporal reasoning",
+    "date fragmentation",
+    "language models",
+    "interpretability",
+    "benchmark"
+   ],
+   "field": "大语言模型可解释性与分词研究",
+   "innovations": [
+    "提出日期碎片化比率指标量化分词质量",
+    "发现LLM emergent日期抽象机制及TCP概念",
+    "构建因果注意力跳转分析框架揭示推理路径"
+   ],
+   "benchmarks": [
+    "DATEAUGBench",
+    "TIMEQA",
+    "TIMEBENCH"
+   ]
+  }
+ }
 }

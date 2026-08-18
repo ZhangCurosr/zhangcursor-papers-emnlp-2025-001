@@ -4,5 +4,31 @@
  "title": "Language-Models-as-Causal-Effect-Generators",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 07:12:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a9ce0ed7-70dd-43d9-aecc-422685922587.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a9ce0ed7-70dd-43d9-aecc-422685922587.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:45:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "因果推断",
+    "结构因果模型",
+    "语言模型",
+    "反事实生成",
+    "个体治疗效应",
+    "因果基准"
+   ],
+   "field": "因果推断与语言模型交叉",
+   "innovations": [
+    "提出 SD-SCM 框架，用预训练 LM 的参数化语义知识替代人工指定的结构方程，实现用户可控 DAG 下的序列数据生成",
+    "构建首个基于 LM 的 CATE/ITE 估计基准，揭示 SOTA 方法在个体效应估计上的系统性困难",
+    "提出基于语义干预的 LM 因果审计新范式，支持路径特异性反事实公平性分析"
+   ],
+   "benchmarks": [
+    "Breast Cancer SD-SCM Benchmark",
+    "1000 datasets × 1000 samples",
+    "GPT-2 and Llama-3-8b generated"
+   ]
+  }
+ }
 }

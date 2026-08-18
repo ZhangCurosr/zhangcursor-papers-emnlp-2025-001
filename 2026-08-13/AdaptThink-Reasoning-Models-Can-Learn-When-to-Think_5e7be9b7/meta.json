@@ -4,5 +4,30 @@
  "title": "AdaptThink-Reasoning-Models-Can-Learn-When-to-Think",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b322992b-e990-4137-acb1-ffdf1812f12e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b322992b-e990-4137-acb1-ffdf1812f12e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:39:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "推理效率",
+    "自适应思考",
+    "强化学习",
+    "Large Reasoning Models",
+    "NoThinking"
+   ],
+   "field": "大模型高效推理",
+   "innovations": [
+    "提出 AdaptThink RL 算法实现 Thinking/NoThinking 模式自适应选择",
+    "设计约束优化目标与重要性采样解决冷启动问题"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH500",
+    "AIME2024",
+    "MMLU"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "M-ABSA-A-Multilingual-Dataset-for-Aspect-Based-Sentiment-Ana",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 14:56:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0f50935d-51bc-4bde-90ee-37ce64252582.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0f50935d-51bc-4bde-90ee-37ce64252582.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:46:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "aspect-based sentiment analysis",
+    "multilingual NLP",
+    "cross-lingual transfer",
+    "dataset construction",
+    "zero-shot prompting"
+   ],
+   "field": "多语言情感分析",
+   "innovations": [
+    "首个21语言7领域并行ABS A数据集M-ABSA",
+    "span标注通过特殊marker保序投影至多语言的高效构建方法"
+   ],
+   "benchmarks": [
+    "M-ABSA",
+    "SemEval-2016 Task 5",
+    "mT5-base",
+    "Gemma-2"
+   ]
+  }
+ }
 }

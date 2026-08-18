@@ -4,5 +4,30 @@
  "title": "Exploring-Changes-in-Nation-Perception-with-Nationality-Assi",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/93e46ba2-abcd-4f58-bfdc-00555af32cc4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/93e46ba2-abcd-4f58-bfdc-00555af32cc4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:40:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Nationality Bias",
+    "LLM Persona",
+    "Representation Bias",
+    "International Perception",
+    "Fairness in LLMs",
+    "Personality-driven Generation"
+   ],
+   "field": "大语言模型社会偏见与公平性",
+   "innovations": [
+    "首个大规模193国籍人格LHM国籍感知系统性评测框架",
+    "提出RP与PMR双指标分离测量频率偏见与情感偏见",
+    "将国籍人格LLM输出与Pew/Gallup人类调查数据首次实证对齐"
+   ],
+   "benchmarks": [
+    "Pew Research Center 2023",
+    "Gallup 2023"
+   ]
+  }
+ }
 }

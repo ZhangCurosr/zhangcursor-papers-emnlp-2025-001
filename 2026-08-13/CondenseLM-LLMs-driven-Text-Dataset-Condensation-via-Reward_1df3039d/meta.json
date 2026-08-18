@@ -4,5 +4,32 @@
  "title": "CondenseLM-LLMs-driven-Text-Dataset-Condensation-via-Reward",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/efe8356b-709f-4f8a-b0bd-67d5427152bd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/efe8356b-709f-4f8a-b0bd-67d5427152bd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:40:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "数据集压缩",
+    "文本数据挖掘",
+    "LLM生成",
+    "奖励匹配",
+    "数据效率",
+    "核心集选择"
+   ],
+   "field": "自然语言处理中的数据效率",
+   "innovations": [
+    "首次提出LLM驱动的文本级数据集压缩框架CondenseLM，突破优化方法在离散文本上的瓶颈",
+    "设计LDSC模块提取判别性特征并生成信息密集的紧凑样本，结合奖励匹配机制最大化代表性覆盖率",
+    "证明优化方法在文本级压缩中的固有局限性，提出高效且跨模型泛化的替代范式"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "MNLI",
+    "AG News",
+    "IMDB"
+   ]
+  }
+ }
 }

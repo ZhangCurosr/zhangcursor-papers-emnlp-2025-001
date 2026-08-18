@@ -4,5 +4,31 @@
  "title": "LLMs-Behind-the-Scenes-Enabling-Narrative-Scene-Illustration",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 14:56:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/96d519cc-5bf7-4da6-8579-014f0765ab93.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/96d519cc-5bf7-4da6-8579-014f0765ab93.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:44:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "narrative scene illustration",
+    "text-to-image",
+    "LLM-as-judge",
+    "cross-modal evaluation",
+    "story visualization",
+    "prompt engineering"
+   ],
+   "field": "跨模态叙事生成与评估",
+   "innovations": [
+    "提出可插拔的LLM-to-T2I场景插图生成流水线并实证验证LLM作为语义桥梁的有效性",
+    "构建首个面向叙事场景插图的成对偏好质量标注数据集SCENEILLUSTRATIONS",
+    "提出基于原子化LLM生成标准的criteria-based evaluation框架，准确率70%显著优于无标准基线59%"
+   ],
+   "benchmarks": [
+    "ROCStories",
+    "Artificial Analysis Image Arena Leaderboard",
+    "LLM Creative Story Writing Benchmark"
+   ]
+  }
+ }
 }

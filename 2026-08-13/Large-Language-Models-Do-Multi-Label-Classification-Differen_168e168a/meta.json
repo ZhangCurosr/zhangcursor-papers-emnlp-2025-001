@@ -4,5 +4,33 @@
  "title": "Large-Language-Models-Do-Multi-Label-Classification-Differen",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 14:56:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fcbc26da-e659-4bdb-b912-e95b4ca5bb22.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fcbc26da-e659-4bdb-b912-e95b4ca5bb22.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:46:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多标签分类",
+    "大型语言模型",
+    "分布对齐",
+    "主观任务",
+    "LLM校准",
+    "生成式分类"
+   ],
+   "field": "多标签分类与LLM行为分析",
+   "innovations": [
+    "首次系统揭示LLM多标签生成中的串行尖峰分布行为",
+    "提出多标签分布对齐任务并以人类标注分布为参考",
+    "Max-over-generations零额外计算提升分布对齐与F1"
+   ],
+   "benchmarks": [
+    "GoEmotions",
+    "MFRC",
+    "SemEval 2018 Task 1 E-c",
+    "HateXplain",
+    "MSP-Podcast"
+   ]
+  }
+ }
 }

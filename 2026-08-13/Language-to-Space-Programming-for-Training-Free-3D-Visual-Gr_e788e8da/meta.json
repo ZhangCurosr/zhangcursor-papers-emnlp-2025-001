@@ -4,5 +4,32 @@
  "title": "Language-to-Space-Programming-for-Training-Free-3D-Visual-Gr",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-08-13 07:12:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/36fe2ace-1fe8-4640-a018-29d10a58660f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/36fe2ace-1fe8-4640-a018-29d10a58660f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:45:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D视觉定位",
+    "训练自由方法",
+    "大语言模型",
+    "空间关系编码",
+    "视觉编程",
+    "代码生成优化"
+   ],
+   "field": "3D视觉-语言理解",
+   "innovations": [
+    "LLM生成可执行空间关系编码器替代自然语言推理",
+    "测试套件驱动的迭代代码优化机制",
+    "符号执行与VLM视觉消歧协同的混合推理框架"
+   ],
+   "benchmarks": [
+    "Nr3D",
+    "GRScenes",
+    "NS3D",
+    "Sr3D"
+   ]
+  }
+ }
 }

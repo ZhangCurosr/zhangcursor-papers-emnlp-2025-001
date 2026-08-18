@@ -4,5 +4,30 @@
  "title": "ICON-sup-2-sup-Aligning-Large-Language-Models-Using-Self-Syn",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-08-13 07:12:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ae05fa1f-41f4-4f1b-be9a-d640a5c1b2e0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ae05fa1f-41f4-4f1b-be9a-d640a5c1b2e0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:42:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Alignment",
+    "Preference Data Synthesis",
+    "Representation Engineering",
+    "Inherent Control",
+    "Self-Synthetic Data"
+   ],
+   "field": "大语言模型对齐与偏好优化",
+   "innovations": [
+    "利用LLM表示空间内生方向向量进行定制化指令筛选",
+    "解码阶段双向内生控制直接生成精确偏好响应对",
+    "无需种子数据且计算高效的自合成偏好数据构建流程"
+   ],
+   "benchmarks": [
+    "AlpacaEval 2.0",
+    "Arena-Hard",
+    "MT-Bench"
+   ]
+  }
+ }
 }

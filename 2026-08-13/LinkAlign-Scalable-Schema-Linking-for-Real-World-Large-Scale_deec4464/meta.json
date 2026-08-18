@@ -4,5 +4,32 @@
  "title": "LinkAlign-Scalable-Schema-Linking-for-Real-World-Large-Scale",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 07:11:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3f6704ab-2ed4-405f-a84a-8ede4b1ec4f6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3f6704ab-2ed4-405f-a84a-8ede4b1ec4f6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:46:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-SQL",
+    "Schema Linking",
+    "Multi-Domain Database",
+    "Multi-Agent Collaboration",
+    "Query Rewriting",
+    "Open-Source LLM"
+   ],
+   "field": "Text-to-SQL与知识检索",
+   "innovations": [
+    "多轮语义增强检索（Query Rewriting）解决query-schema语义对齐问题",
+    "Data Analyst+Database Expert辩论机制实现精准目标数据库定位",
+    "Pipeline/Agent双模式模块化框架兼顾效率与精度"
+   ],
+   "benchmarks": [
+    "Spider",
+    "BIRD",
+    "Spider 2.0-Lite",
+    "AmbiDB"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "From-Problem-Solving-to-Teaching-Problem-Solving-Aligning-LL",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 07:10:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/822c38bf-5033-4b5c-b05e-59ee81dbbcbe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/822c38bf-5033-4b5c-b05e-59ee81dbbcbe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:42:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reinforcement learning",
+    "pedagogical alignment",
+    "multi-turn tutoring",
+    "LLM education",
+    "GRPO",
+    "on-policy RL",
+    "teaching problem-solving"
+   ],
+   "field": "教育大模型 / 多轮对话式辅导",
+   "innovations": [
+    "提出在线RL多轮辅导框架，无需人工标注即可将7B模型训练为有效tutor",
+    "设计可调节λ的解法正确率-教学法质量权衡机制，支持Pareto frontier导航",
+    "RL对齐在保持推理能力的同时实现低于专有模型LearnLM的solution leakage"
+   ],
+   "benchmarks": [
+    "Big-Math",
+    "MathTutorBench",
+    "MMLU",
+    "GSM8K",
+    "MATH500"
+   ]
+  }
+ }
 }
