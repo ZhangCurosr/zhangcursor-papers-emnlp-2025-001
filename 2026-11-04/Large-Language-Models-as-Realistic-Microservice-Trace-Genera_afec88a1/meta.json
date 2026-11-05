@@ -4,5 +4,31 @@
  "title": "Large-Language-Models-as-Realistic-Microservice-Trace-Genera",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-11-04 21:04:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6379ce90-53de-4950-bc5b-78b0caf0b0b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6379ce90-53de-4950-bc5b-78b0caf0b0b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:54:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "微服务追踪",
+    "合成数据生成",
+    "大语言模型",
+    "递归生成",
+    "指令微调",
+    "系统轨迹"
+   ],
+   "field": "系统轨迹合成与LLM应用",
+   "innovations": [
+    "提出递归分层生成机制将复杂图生成分解为逐层子任务",
+    "引入中间推理指令增强LLM对层级结构约束的遵循能力",
+    "首次证明微调LLM可生成高质量微服务调用图并替代真实数据用于下游任务"
+   ],
+   "benchmarks": [
+    "Alibaba v2022",
+    "FIRM关键组件提取",
+    "TraceVAE异常检测"
+   ]
+  }
+ }
 }

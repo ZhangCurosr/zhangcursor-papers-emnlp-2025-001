@@ -4,5 +4,32 @@
  "title": "Automating-Steering-for-Safe-Multimodal-Large-Language-Model",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-11-04 21:20:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/49c6ee4c-77d9-4372-a743-6e6f5992153c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/49c6ee4c-77d9-4372-a743-6e6f5992153c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:48:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "推理时安全干预",
+    "模型转向",
+    "安全探测",
+    "拒绝头",
+    "对抗防御"
+   ],
+   "field": "多模态大语言模型安全对齐",
+   "innovations": [
+    "提出SAS自动定位安全感知层，替代人工调参",
+    "条件触发式拒绝头机制避免全局干预性能退化",
+    "无需微调的推理时插件化安全框架"
+   ],
+   "benchmarks": [
+    "VLSafe",
+    "ToViLaG+",
+    "RealWorldQA",
+    "MMMU"
+   ]
+  }
+ }
 }

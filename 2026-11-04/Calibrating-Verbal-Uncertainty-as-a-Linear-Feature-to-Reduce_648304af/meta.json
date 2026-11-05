@@ -4,5 +4,32 @@
  "title": "Calibrating-Verbal-Uncertainty-as-a-Linear-Feature-to-Reduce",
  "token": "sk-vN80CmS1I...",
  "created_at": "2026-11-04 21:13:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/55bd9c2a-2095-4281-b5bf-1ad916b370f5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/55bd9c2a-2095-4281-b5bf-1ad916b370f5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:49:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "幻觉检测",
+    "语言不确定性",
+    "语义熵",
+    "机制干预",
+    "线性特征",
+    "LLM可解释性",
+    "推理时校准"
+   ],
+   "field": "大语言模型幻觉与不确定性建模",
+   "innovations": [
+    "发现语言不确定性由表示空间中单一线性方向（VUF）控制",
+    "首次联合 VU 与 SU 实现幻觉检测，优于单一 SU 方法",
+    "提出推理时 Mechanistic Uncertainty Calibration 干预，使 VU 对齐 SU 并减少自信幻觉"
+   ],
+   "benchmarks": [
+    "TriviaQA",
+    "NQ-Open",
+    "PopQA"
+   ]
+  }
+ }
 }

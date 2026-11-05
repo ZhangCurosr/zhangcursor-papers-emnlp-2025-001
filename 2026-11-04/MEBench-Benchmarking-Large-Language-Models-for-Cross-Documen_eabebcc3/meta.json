@@ -4,5 +4,28 @@
  "title": "MEBench-Benchmarking-Large-Language-Models-for-Cross-Documen",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-11-04 21:05:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d340a25f-a4e1-4615-9c6d-84dc5568ade0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d340a25f-a4e1-4615-9c6d-84dc5568ade0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:54:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨文档问答",
+    "多实体推理",
+    "LLM评测",
+    "RAG",
+    "基准构建"
+   ],
+   "field": "多文档/多实体问答与评测",
+   "innovations": [
+    "提出首个面向跨文档多实体问答的系统性基准MEBench",
+    "设计实体密度分层评测与EA-F1细粒度归因指标",
+    "构建模板驱动+SQL程序化求解的可复现基准流水线"
+   ],
+   "benchmarks": [
+    "MEBench"
+   ]
+  }
+ }
 }

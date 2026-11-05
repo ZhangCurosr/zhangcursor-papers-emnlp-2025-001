@@ -4,5 +4,31 @@
  "title": "LaMP-QA-A-Benchmark-for-Personalized-Long-form-Question-Answ",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-11-04 21:16:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1ab9aa56-5fb3-4b1d-b465-abc764cfc582.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1ab9aa56-5fb3-4b1d-b465-abc764cfc582.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:53:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "个性化问答",
+    "长文本生成",
+    "RAG",
+    "基准评测",
+    "方面评估",
+    "LLM"
+   ],
+   "field": "个性化信息检索与生成",
+   "innovations": [
+    "提出LaMP-QA首个个性化长问答基准",
+    "设计aspect-based评估方法实现73% human对齐",
+    "提出PlanPers规划式RAG基线"
+   ],
+   "benchmarks": [
+    "LaMP-QA",
+    "SE-PQA",
+    "LongLaMP"
+   ]
+  }
+ }
 }

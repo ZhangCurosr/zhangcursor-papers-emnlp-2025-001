@@ -4,5 +4,30 @@
  "title": "Fingerprinting-LLMs-through-Survey-Item-Factor-Correlation-A",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-11-04 21:07:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cfd12629-a42c-4f61-924e-241885b53666.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cfd12629-a42c-4f61-924e-241885b53666.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:50:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM心理构念表征",
+    "因素协方差指纹",
+    "探索性图分析EGA",
+    "幽默风格问卷HSQ",
+    "模型对齐评估"
+   ],
+   "field": "大语言模型心理评估与表征分析",
+   "innovations": [
+    "提出基于因素协方差模式的LLM心理构念指纹方法",
+    "首次将EGA应用于LLM心理量表响应诊断",
+    "发现LLM与人类在心理构念组织上存在根本性差异"
+   ],
+   "benchmarks": [
+    "Humor Style Questionnaire (HSQ)",
+    "Cronbach's Alpha Reliability",
+    "Cosine Similarity of Factor Correlation Matrices"
+   ]
+  }
+ }
 }

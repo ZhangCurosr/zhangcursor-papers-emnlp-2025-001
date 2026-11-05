@@ -4,5 +4,30 @@
  "title": "LINGGYM-How-Far-Are-LLMs-from-Thinking-Like-Field-Linguists",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-11-04 21:25:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c27bbaf3-7f61-4938-9137-024e8ec1a831.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c27bbaf3-7f61-4938-9137-024e8ec1a831.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:52:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "low-resource languages",
+    "metalinguistic reasoning",
+    "interlinear glossed text",
+    "benchmark",
+    "language documentation",
+    "reference grammars",
+    "LLM evaluation"
+   ],
+   "field": "低资源语言NLP与计算语言学",
+   "innovations": [
+    "首个跨18种低资源语言的元语言推理基准LINGGYM，覆盖8个语言家族",
+    "多难度层级设计（S→S+G→S+G+KP→S+G+KP+T）精确量化结构化语言信息的推理贡献",
+    "系统性干扰项生成策略（LCS形式/语义/章节级）与数据污染控制分析"
+   ],
+   "benchmarks": [
+    "LINGGYM"
+   ]
+  }
+ }
 }

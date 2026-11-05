@@ -4,5 +4,31 @@
  "title": "JUREX-4E-Juridical-Expert-Annotated-Four-Element-Knowledge-B",
  "token": "sk-f9bQDVs2Y...",
  "created_at": "2026-11-04 21:15:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3d89aeed-ea0e-46e6-9487-65d4c604e4b6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3d89aeed-ea0e-46e6-9487-65d4c604e4b6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:51:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "四要件理论",
+    "法律大模型",
+    "法律知识库构建",
+    "法律推理",
+    "相似罪名辨析",
+    "法律案例检索"
+   ],
+   "field": "法律AI/法律大模型",
+   "innovations": [
+    "构建首个基于层级法律解释体系的专家标注四要件知识库JUREX-4E，覆盖155个高频罪名",
+    "系统验证LLM生成的四要件存在准确性和完整性缺陷，专家标注显著优于LLM自生成",
+    "提出专家引导的case-FET生成方法，在SCD和LCR两个下游任务中实现 consistently 提升"
+   ],
+   "benchmarks": [
+    "LeCaRDv2",
+    "SCD Dataset (Liu et al. 2021)",
+    "CAIL2018"
+   ]
+  }
+ }
 }

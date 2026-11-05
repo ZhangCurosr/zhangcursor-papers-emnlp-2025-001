@@ -4,5 +4,29 @@
  "title": "KOBLEX-Open-Legal-Question-Answering-with-Multi-hop-Reasonin",
  "token": "sk-pAWZK7ksy...",
  "created_at": "2026-11-04 21:15:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2201f30a-01a9-4d84-a0c2-93d0eca7432b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2201f30a-01a9-4d84-a0c2-93d0eca7432b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:52:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "法律问答",
+    "多跳推理",
+    "检索增强生成",
+    "法条 grounding",
+    "韩语法律NLP",
+    "评估指标"
+   ],
+   "field": "法律自然语言处理",
+   "innovations": [
+    "参数化法条引导的三阶段精准检索（PARSER）",
+    "面向法律忠实度的五步自动化评估框架（LF-EVAL）",
+    "韩语开放多跳法律QA基准（KOBLEX）"
+   ],
+   "benchmarks": [
+    "KOBLEX"
+   ]
+  }
+ }
 }

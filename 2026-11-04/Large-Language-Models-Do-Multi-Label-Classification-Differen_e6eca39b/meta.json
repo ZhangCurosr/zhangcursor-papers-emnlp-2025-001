@@ -4,5 +4,34 @@
  "title": "Large-Language-Models-Do-Multi-Label-Classification-Differen",
  "token": "sk-mqXJxPMnY...",
  "created_at": "2026-11-04 21:06:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3af747f7-f3ed-4faa-a4b7-83dd1bdff428.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3af747f7-f3ed-4faa-a4b7-83dd1bdff428.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:53:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多标签分类",
+    "大语言模型",
+    "分布对齐",
+    "概率校准",
+    "主观任务",
+    "自回归生成"
+   ],
+   "field": "多标签情感/主观分类",
+   "innovations": [
+    "首次系统分析LLM多标签分类的尖峰分布行为",
+    "提出Max-Over-Generations零样本校准方法无额外计算成本",
+    "将分布对齐任务扩展至多标签主观场景并以人类经验分布为参考"
+   ],
+   "benchmarks": [
+    "GoEmotions",
+    "MFRC",
+    "SemEval 2018 Task 1 E-c",
+    "Boxes",
+    "HateXplain",
+    "MSP-Podcast"
+   ]
+  }
+ }
 }

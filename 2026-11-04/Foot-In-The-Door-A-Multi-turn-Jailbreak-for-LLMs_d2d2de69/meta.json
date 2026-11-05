@@ -4,5 +4,30 @@
  "title": "Foot-In-The-Door-A-Multi-turn-Jailbreak-for-LLMs",
  "token": "sk-UIdHTd8L7...",
  "created_at": "2026-11-04 21:25:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/549e417f-d10a-4a82-8064-74fca798fd87.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/549e417f-d10a-4a82-8064-74fca798fd87.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:51:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "jailbreak",
+    "multi-turn attack",
+    "LLM safety",
+    "foot-in-the-door",
+    "self-corruption",
+    "prompt injection"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "提出受心理学登门槛效应启发的多轮渐进 jailbreak 框架 FITD，利用模型自身响应推动自我腐化",
+    "设计 SlipperySlopeParaphrase 和 Re-Align 两个模块实现自动化的桥接提示生成与响应重对齐",
+    "揭示 LLM 多轮对话中的语义-行为脱钩机制，证明内部表示漂移先于输出行为崩溃"
+   ],
+   "benchmarks": [
+    "JailbreakBench",
+    "HarmBench"
+   ]
+  }
+ }
 }

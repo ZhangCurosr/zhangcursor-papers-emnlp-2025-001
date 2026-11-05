@@ -4,5 +4,36 @@
  "title": "FILBENCH-Can-LLMs-Understand-and-Generate-Filipino",
  "token": "sk-o7hgvdkWW...",
  "created_at": "2026-11-04 21:06:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a0ee3067-3b57-482e-ae3f-c5a6d547767d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a0ee3067-3b57-482e-ae3f-c5a6d547767d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:50:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Filipino NLP",
+    "LLM benchmark",
+    "low-resource language",
+    "machine translation evaluation",
+    "Southeast Asian languages",
+    "cross-lingual transfer"
+   ],
+   "field": "低资源语言大模型评估",
+   "innovations": [
+    "基于文献计量分析驱动构建的首个菲律宾三语综合LLM基准FILBENCH",
+    "系统揭示LLM在菲律宾语言生成任务中的三大失败模式（指令遵循差/过度生成/幻觉）",
+    "验证东南亚专用微调模型在参数效率Pareto前沿上的优越性"
+   ],
+   "benchmarks": [
+    "FILBENCH",
+    "SeaBench",
+    "SeaExam",
+    "Batayan",
+    "Global MMLU",
+    "SIB-200",
+    "Belebele",
+    "NewsPH NLI"
+   ]
+  }
+ }
 }

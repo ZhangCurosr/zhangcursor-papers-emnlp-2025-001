@@ -4,5 +4,29 @@
  "title": "Language-Mixing-in-Reasoning-Language-Models-Patterns-Impact",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-11-04 21:13:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1d24f84f-25eb-47c7-a3d9-5ac5cb3b107e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1d24f84f-25eb-47c7-a3d9-5ac5cb3b107e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:53:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "推理语言模型",
+    "语言混合",
+    "多语言推理",
+    "机制可解释性",
+    "约束解码"
+   ],
+   "field": "多语言大语言模型推理",
+   "innovations": [
+    "首次系统分析 RLM 语言混合的 patterns/impact/causes",
+    "提出脚本控制推理方法并验证性能提升",
+    "通过 Logit Lens 揭示混合与内部表征的对齐关系"
+   ],
+   "benchmarks": [
+    "K&K (Knights-and-Knaves)",
+    "m-MMLU"
+   ]
+  }
+ }
 }

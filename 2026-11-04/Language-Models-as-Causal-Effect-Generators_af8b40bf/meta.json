@@ -4,5 +4,31 @@
  "title": "Language-Models-as-Causal-Effect-Generators",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-11-04 21:24:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2c6d4069-a4ee-4e30-b195-ea0a88b6fdff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2c6d4069-a4ee-4e30-b195-ea0a88b6fdff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:53:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "causal inference",
+    "counterfactual generation",
+    "language models",
+    "SD-SCM",
+    "CATE estimation",
+    "ITE estimation",
+    "causal benchmark"
+   ],
+   "field": "因果推断与语言模型交叉",
+   "innovations": [
+    "将预训练语言模型条件分布参数化结构因果模型的结构方程，支持用户自定义DAG下的观测/干预/反事实序列数据生成",
+    "基于乳腺癌PD-L1场景构建千人级CATE/ITE估计基准，首次在LM生成数据上系统评测10+因果推断方法的异质性效应估计能力",
+    "提出面向LM的语义级因果审计框架，揭示GPT-2与Llama-3-8b在同一DAG下编码不同因果信念的现象"
+   ],
+   "benchmarks": [
+    "Breast cancer PD-L1 therapy SD-SCM benchmark (1000 datasets)",
+    "CATE/ITE estimation benchmark with hidden confounder settings"
+   ]
+  }
+ }
 }
