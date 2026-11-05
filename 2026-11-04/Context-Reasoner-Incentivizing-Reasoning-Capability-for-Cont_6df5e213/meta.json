@@ -4,5 +4,34 @@
  "title": "Context-Reasoner-Incentivizing-Reasoning-Capability-for-Cont",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-11-04 21:26:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/20a70ec0-8c75-4e82-8d11-0d09d053d4cd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/20a70ec0-8c75-4e82-8d11-0d09d053d4cd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:27:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Contextual Integrity",
+    "LLM Safety",
+    "Privacy Compliance",
+    "Reinforcement Learning",
+    "PPO",
+    "Legal Alignment",
+    "Rule-based Reward"
+   ],
+   "field": "大语言模型安全与合规",
+   "innovations": [
+    "基于CI理论将LLM安全隐私问题统一形式化为上下文合规推理任务",
+    "SFT冷启动+PPO规则奖励两阶段训练范式激励法律合规推理能力",
+    "证明上下文合规推理可显著提升通用领域泛化能力（MMLU/LegalBench/TruthfulQA）"
+   ],
+   "benchmarks": [
+    "PrivaCI-Bench",
+    "LegalBench",
+    "LawBench",
+    "TruthfulQA",
+    "MMLU"
+   ]
+  }
+ }
 }

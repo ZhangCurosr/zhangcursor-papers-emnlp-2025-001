@@ -4,5 +4,30 @@
  "title": "CIE-Controlling-Language-Model-Text-Generations-Using-Contin",
  "token": "sk-LOQ24tRUh...",
  "created_at": "2026-11-04 21:21:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d40ee4f5-e78b-4770-a5da-dc5196a6fa54.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d40ee4f5-e78b-4770-a5da-dc5196a6fa54.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:26:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可控文本生成",
+    "连续控制信号",
+    "嵌入插值",
+    "响应长度控制",
+    "大语言模型"
+   ],
+   "field": "可控语言模型生成",
+   "innovations": [
+    "提出CIE方法，通过插值两个边界嵌入向量生成连续控制信号，无需扩展词汇表实现细粒度属性控制",
+    "构建CPR评估体系，在响应长度控制任务上显著超越提示词基线和RULER离散token方法",
+    "揭示连续嵌入空间的几何有序性带来的数据效率优势，插值机制实现更优泛化"
+   ],
+   "benchmarks": [
+    "VERBOSITYCTRL_val",
+    "VERBOSITYCTRL_range",
+    "Alpaca-LI"
+   ]
+  }
+ }
 }

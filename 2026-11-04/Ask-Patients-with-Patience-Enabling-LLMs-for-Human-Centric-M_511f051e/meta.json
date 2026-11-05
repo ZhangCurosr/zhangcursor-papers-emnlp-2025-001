@@ -4,5 +4,29 @@
  "title": "Ask-Patients-with-Patience-Enabling-LLMs-for-Human-Centric-M",
  "token": "sk-Kd7pZOTW3...",
  "created_at": "2026-11-04 21:14:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/651835b8-5a10-4bdf-918f-838bedcbc8e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/651835b8-5a10-4bdf-918f-838bedcbc8e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:25:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "医疗对话",
+    "贝叶斯主动学习",
+    "人本中心AI",
+    "多轮诊断",
+    "医学指南grounding",
+    "LLM对话系统"
+   ],
+   "field": "医疗人工智能与对话系统",
+   "innovations": [
+    "基于贝叶斯主动学习与医学指南grounding的多轮医疗追问优化框架",
+    "首个融合人本中心交互与透明概率诊断的LLM医疗助手",
+    "基于真实患者画像的多轮对话评测基准"
+   ],
+   "benchmarks": [
+    "ReMeDi"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "F-sup-2-sup-Bench-An-Open-ended-Fairness-Evaluation-Benchmar",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-11-04 21:15:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4147b20e-72b6-49c9-9236-92904b595a62.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4147b20e-72b6-49c9-9236-92904b595a62.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:29:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "公平性评估",
+    "大语言模型",
+    "开放式评测",
+    "事实性",
+    "交叉偏见",
+    "benchmark"
+   ],
+   "field": "AI公平性与可信评估",
+   "innovations": [
+    "提出F²Bench开放式公平性评估基准，整合多轮对话诱导与公平-事实平衡双任务",
+    "设计FF1综合指标量化公平性与事实性的权衡能力",
+    "揭示封闭式评测可能高估小模型公平性、大模型事实性更强但公平性更弱的现象"
+   ],
+   "benchmarks": [
+    "F2Bench",
+    "CrowS-Pairs",
+    "BBQ"
+   ]
+  }
+ }
 }

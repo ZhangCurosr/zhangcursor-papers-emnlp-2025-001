@@ -4,5 +4,42 @@
  "title": "Direct-Judgement-Preference-Optimization",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-11-04 21:18:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b2fb5fa5-7350-49bd-9888-a1337731e1ff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b2fb5fa5-7350-49bd-9888-a1337731e1ff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:28:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-as-judge",
+    "Direct Preference Optimization",
+    "DPO",
+    "automatic evaluation",
+    "generative judge",
+    "reward modeling",
+    "preference optimization"
+   ],
+   "field": "大语言模型评估与对齐",
+   "innovations": [
+    "提出三种互补的DPO偏好对（CoT Critique、Standard Judgement、Response Deduction）训练通用judge",
+    "构建680K大规模judge训练集并训练8B/12B/70B多尺度模型",
+    "DPO+SFT混合损失函数强化正样本学习"
+   ],
+   "benchmarks": [
+    "RewardBench",
+    "Auto-J",
+    "InstruSum",
+    "HHH",
+    "BiGGen Bench",
+    "FLASK",
+    "MT-Bench",
+    "FeedbackBench",
+    "LLM-AggreFact",
+    "InfoBench",
+    "EvalBiasBench",
+    "PreferenceBench",
+    "AlpacaEval-2"
+   ]
+  }
+ }
 }

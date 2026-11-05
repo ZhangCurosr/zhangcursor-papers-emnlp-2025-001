@@ -4,5 +4,10 @@
  "title": "DSCD-Large-Language-Model-Detoxification-with-Self-Constrain",
  "token": "sk-vCZXYoScl...",
  "created_at": "2026-11-04 21:18:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6f333da9-f56d-49e5-91f9-1675eba9bde9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6f333da9-f56d-49e5-91f9-1675eba9bde9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:28:03",
+  "chunks": 1
+ }
 }

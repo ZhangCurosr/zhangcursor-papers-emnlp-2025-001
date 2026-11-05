@@ -4,5 +4,32 @@
  "title": "Active-Layer-Contrastive-Decoding-Reduces-Hallucination-in-L",
  "token": "sk-RsuYjp77g...",
  "created_at": "2026-11-04 21:15:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/bea851c3-ede9-4ee3-8417-30d5e1078f17.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/bea851c3-ede9-4ee3-8417-30d5e1078f17.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:24:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "幻觉减少",
+    "对比解码",
+    "强化学习",
+    "大语言模型",
+    "序列决策",
+    "推理优化"
+   ],
+   "field": "大语言模型推理与幻觉缓解",
+   "innovations": [
+    "将解码建模为 MDP 序列决策问题，通过 RL 策略动态选择层对比激活时机",
+    "设计非对称序列级 reward 函数，在精度与效率间取得最优平衡"
+   ],
+   "benchmarks": [
+    "TruthfulQA",
+    "LongFact",
+    "StrategyQA",
+    "GSM8K",
+    "Package Hallucination"
+   ]
+  }
+ }
 }

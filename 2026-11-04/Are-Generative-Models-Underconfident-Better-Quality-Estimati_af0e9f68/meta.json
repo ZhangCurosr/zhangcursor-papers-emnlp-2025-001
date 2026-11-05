@@ -4,5 +4,34 @@
  "title": "Are-Generative-Models-Underconfident-Better-Quality-Estimati",
  "token": "sk-o28Oo64R2...",
  "created_at": "2026-11-04 21:25:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5272b5b7-6e09-4d9b-9c60-09bc7be2b34a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5272b5b7-6e09-4d9b-9c60-09bc7be2b34a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:25:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Quality Estimation",
+    "Model Probability",
+    "Underconfidence",
+    "Dominant Tokens",
+    "Speech Translation",
+    "Machine Translation"
+   ],
+   "field": "质量估计与模型不确定性",
+   "innovations": [
+    "发现自由文本生成中模型概率的underconfidence现象并提出形式化分析",
+    "提出BOOSTEDPROB方法，通过跳变检测聚合主tokens概率质量以提升QE效果",
+    "揭示模型质量与其自评估能力之间的正相关关系"
+   ],
+   "benchmarks": [
+    "Fleurs",
+    "WMT22 General",
+    "HJQE",
+    "XSum",
+    "GSM8K",
+    "SciEx"
+   ]
+  }
+ }
 }

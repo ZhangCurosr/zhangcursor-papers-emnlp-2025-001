@@ -4,5 +4,30 @@
  "title": "Biased-Tales-Cultural-and-Topic-Bias-in-Generating-Children",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-11-04 21:11:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5dfc3f50-b95c-4b59-88dc-9e7ac7ea5ad0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5dfc3f50-b95c-4b59-88dc-9e7ac7ea5ad0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:25:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Bias",
+    "Children's Stories",
+    "Cultural Bias",
+    "Gender Bias",
+    "Dataset",
+    "NLP Evaluation"
+   ],
+   "field": "大语言模型偏见评估与社会影响",
+   "innovations": [
+    "构建了首个多维度社会文化因素儿童故事偏见数据集 Biased Tales",
+    "提出了融合角色与上下文中心属性的两维度叙事偏见分类与评估框架",
+    "结合表层词汇相关性与深层文本可预测性双重度量偏见强度"
+   ],
+   "benchmarks": [
+    "Biased Tales",
+    "MirrorStories"
+   ]
+  }
+ }
 }

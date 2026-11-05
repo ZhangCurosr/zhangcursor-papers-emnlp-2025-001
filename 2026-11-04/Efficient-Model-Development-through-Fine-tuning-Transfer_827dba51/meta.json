@@ -4,5 +4,34 @@
  "title": "Efficient-Model-Development-through-Fine-tuning-Transfer",
  "token": "sk-TohzZhzLz...",
  "created_at": "2026-11-04 21:07:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1d77204d-737a-4b3e-8601-f6524b003ff1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1d77204d-737a-4b3e-8601-f6524b003ff1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:28:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diff vector transfer",
+    "model version migration",
+    "fine-tuning transfer",
+    "linear mode connectivity",
+    "model merging",
+    "efficient LLM development"
+   ],
+   "field": "大语言模型高效微调与开发",
+   "innovations": [
+    "提出跨模型版本的 diff vector 零训练迁移方法，实现指令跟随/推理/代码能力的版本间复用",
+    "揭示线性模式连通性是 transfer 有效的充分条件，并提出 target model 能力阈值现象",
+    "设计迭代回收-再微调策略，在持续版本开发中渐进累积历史微调知识"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH500",
+    "IFEval",
+    "Global MMLU",
+    "GPQA Diamond",
+    "LiveCodeBench"
+   ]
+  }
+ }
 }

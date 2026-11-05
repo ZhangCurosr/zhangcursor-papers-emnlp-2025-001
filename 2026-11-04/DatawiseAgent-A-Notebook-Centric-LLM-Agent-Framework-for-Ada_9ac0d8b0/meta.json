@@ -4,5 +4,31 @@
  "title": "DatawiseAgent-A-Notebook-Centric-LLM-Agent-Framework-for-Ada",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-11-04 21:09:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e6c8beae-e4e2-47bf-964a-88f5a08623ab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e6c8beae-e4e2-47bf-964a-88f5a08623ab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:27:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "数据科学自动化",
+    "Notebook 中心框架",
+    "有限状态转移机",
+    "代码生成与调试",
+    "端到端预测建模"
+   ],
+   "field": "LLM-based Data Science Agents",
+   "innovations": [
+    "以 Notebook 为中心的 unified interaction representation，统一 Markdown 与代码 Cell 表达所有 Agent-环境通信",
+    "基于 NFST 的四阶段多阶段架构（DFS-like 规划/增量执行/自调试/后过滤），支持灵活长程规划与鲁棒错误恢复",
+    "弱模型自适应补偿机制：通过增加规划深度与调试轮数维持性能，小模型下与基线差距反而扩大"
+   ],
+   "benchmarks": [
+    "InfiAgent-DABench",
+    "MatplotBench",
+    "DSBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Enhancing-Efficiency-and-Exploration-in-Reinforcement-Learni",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-11-04 21:27:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/969a0638-9be0-4282-b398-84a3b0673774.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/969a0638-9be0-4282-b398-84a3b0673774.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:29:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "强化学习",
+    "大语言模型",
+    "rollout分配",
+    "温度调度",
+    "探索与利用",
+    "GRPO",
+    "数学推理"
+   ],
+   "field": "LLM强化学习与对齐",
+   "innovations": [
+    "动态rollout预算分配机制，根据问题难度自适应调整采样资源",
+    "温度调度器通过调整softmax温度维持策略熵稳定，避免熵正则化有害梯度",
+    "退火机制实现探索到利用的平滑过渡"
+   ],
+   "benchmarks": [
+    "AIME 2024",
+    "AMC 2023",
+    "MATH 500",
+    "OlympiadBench"
+   ]
+  }
+ }
 }

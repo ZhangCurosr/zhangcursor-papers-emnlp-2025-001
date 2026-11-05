@@ -4,5 +4,34 @@
  "title": "Demystifying-optimized-prompts-in-language-models",
  "token": "sk-yEKi8NUQa...",
  "created_at": "2026-11-04 21:20:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/76717c6f-55e3-45c0-ace8-b077401588e5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/76717c6f-55e3-45c0-ace8-b077401588e5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:28:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prompt optimization",
+    "GCG",
+    "mechanistic interpretability",
+    "sparse probing",
+    "jailbreak",
+    "language model safety",
+    "adversarial prompts"
+   ],
+   "field": "大语言模型可解释性与安全性",
+   "innovations": [
+    "首次系统性跨模型分析优化提示的token组成与词频分布特征",
+    "通过稀疏探针证明优化提示与自然语言提示在激活空间可高准确率分离",
+    "揭示层间KL散度演化路径并发现feature ablation与token ablation敏感性解耦"
+   ],
+   "benchmarks": [
+    "Tiny Stories",
+    "Alpaca",
+    "WikiText-103",
+    "OpenHermes-2.5",
+    "Dolly-15k"
+   ]
+  }
+ }
 }

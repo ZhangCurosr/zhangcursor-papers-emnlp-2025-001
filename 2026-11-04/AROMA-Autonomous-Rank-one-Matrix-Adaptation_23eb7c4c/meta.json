@@ -4,5 +4,30 @@
  "title": "AROMA-Autonomous-Rank-one-Matrix-Adaptation",
  "token": "sk-yeaNqR4AC...",
  "created_at": "2026-11-04 21:20:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/fe68e1d8-d150-4f16-95e1-049216e05a8a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/fe68e1d8-d150-4f16-95e1-049216e05a8a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:24:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "参数高效微调",
+    "低秩适应",
+    "自适应秩",
+    "秩增长",
+    "双循环架构"
+   ],
+   "field": "大语言模型参数高效微调",
+   "innovations": [
+    "提出基于秩增长的自适应PEFT方法AROMA，从零秩逐步构建逐模块最优秩，无需预设初始/目标秩预算",
+    "设计双循环收敛架构，内循环提取秩一子空间信息，外循环自动判定最优秩数",
+    "引入Check & Merge & Reinit & Reset策略，通过99.9%优化器状态重置保持子空间独立性"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "Commonsense170K",
+    "XSum"
+   ]
+  }
+ }
 }

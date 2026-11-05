@@ -4,5 +4,32 @@
  "title": "CHENGYU-BENCH-Benchmarking-Large-Language-Models-for-Chinese",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-11-04 21:07:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/34b8e21e-85e0-4564-8bc3-39bbd11d1aaa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/34b8e21e-85e0-4564-8bc3-39bbd11d1aaa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:26:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "成语理解",
+    "中文基准测试",
+    "大语言模型评测",
+    "文化语义理解",
+    "开放填空"
+   ],
+   "field": "中文NLP评测基准",
+   "innovations": [
+    "首个覆盖情感识别、适当性检测、开放生成三任务的多维度成语基准",
+    "长语境开放填空任务设计（600+ tokens上下文）",
+    "五类结构化错误分析框架揭示LLM成语理解瓶颈"
+   ],
+   "benchmarks": [
+    "CHENGYU-BENCH",
+    "ChID",
+    "CIP",
+    "IdiomKB",
+    "WenMind"
+   ]
+  }
+ }
 }

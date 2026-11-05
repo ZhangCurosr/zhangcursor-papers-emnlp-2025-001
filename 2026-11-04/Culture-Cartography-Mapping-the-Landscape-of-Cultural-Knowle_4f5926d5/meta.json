@@ -4,5 +4,30 @@
  "title": "Culture-Cartography-Mapping-the-Landscape-of-Cultural-Knowle",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-11-04 21:03:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d4ec8b90-26fd-465a-ac72-20fd562a764d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d4ec8b90-26fd-465a-ac72-20fd562a764d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:27:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Culture-aware LLMs",
+    "Mixed-initiative Annotation",
+    "Cultural Benchmarking",
+    "Knowledge Gap Elicitation",
+    "Active Learning"
+   ],
+   "field": "文化感知大模型",
+   "innovations": [
+    "提出首个混合主动干预的文化知识挖掘方法论，实现LLM与人类专家的双向协作",
+    "开发基于树状结构的交互式标注工具CULTURE EXPLORER，支持非线性知识探索",
+    "构建并通过Google-Proof验证证明其独特性的高质量多文化基准数据集"
+   ],
+   "benchmarks": [
+    "CULTURE CARTOGRAPHY",
+    "BLEnD",
+    "CulturalBench"
+   ]
+  }
+ }
 }

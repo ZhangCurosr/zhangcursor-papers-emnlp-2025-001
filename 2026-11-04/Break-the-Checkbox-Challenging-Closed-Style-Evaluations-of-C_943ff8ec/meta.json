@@ -4,5 +4,29 @@
  "title": "Break-the-Checkbox-Challenging-Closed-Style-Evaluations-of-C",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-11-04 21:24:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2564c69c-6fbb-4d0b-8140-33a8ce756d22.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2564c69c-6fbb-4d0b-8140-33a8ce756d22.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:26:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "文化对齐",
+    "大语言模型评估",
+    "跨文化NLP",
+    "封闭式评估",
+    "位置偏差"
+   ],
+   "field": "跨文化自然语言处理",
+   "innovations": [
+    "提出四种梯度约束的探询方法系统评估LLM文化对齐",
+    "揭示选项顺序敏感性对文化评估结果的显著影响",
+    "将不可分类输出转化为文化洞察的来源"
+   ],
+   "benchmarks": [
+    "World Values Survey",
+    "Hofstede Cultural Dimensions"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Dialect-SQL-An-Adaptive-Framework-for-Bridging-the-Dialect-G",
  "token": "sk-vo4GDqdWy...",
  "created_at": "2026-11-04 21:13:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c4f7813e-5ab1-44f6-aac5-f11d787ede2a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c4f7813e-5ab1-44f6-aac5-f11d787ede2a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:28:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-SQL",
+    "Dialect Adaptation",
+    "ORM Code",
+    "Intermediate Language",
+    "Large Language Models",
+    "Data Synthesis",
+    "Few-shot Learning"
+   ],
+   "field": "Text-to-SQL/跨方言查询生成",
+   "innovations": [
+    "提出以 ORM 代码为中间语言的 Text-to-Code 范式以桥接 SQL 方言鸿沟",
+    "设计可控的引导式 ORM 代码合成方法自动构建高质量演示池",
+    "通过执行反馈验证迭代生成数据，显著提升跨方言 Text-to-SQL 适应性"
+   ],
+   "benchmarks": [
+    "Spider",
+    "BIRD"
+   ]
+  }
+ }
 }

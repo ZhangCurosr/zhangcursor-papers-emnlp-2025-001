@@ -4,5 +4,31 @@
  "title": "Beyond-Input-Activations-Identifying-Influential-Latents-by",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-11-04 21:05:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/aad781f3-3742-40c9-9428-e2bb274ff8b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/aad781f3-3742-40c9-9428-e2bb274ff8b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:26:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "稀疏自编码器",
+    "大语言模型可解释性",
+    "因果归因",
+    "模型操控",
+    "梯度近似",
+    "SAE特征筛选"
+   ],
+   "field": "大语言模型可解释性",
+   "innovations": [
+    "提出GradSAE，通过输出端梯度信号替代输入激活来识别SAE潜在特征的因果影响力",
+    "证明输入激活与输出影响力存在系统性偏差（TopK交叉重叠率仅18.06%）",
+    "在扰动与本地操控任务上验证GradSAE有效性，跨层（9/20/31）和跨模型（Gemma/LLaMA）保持一致性提升"
+   ],
+   "benchmarks": [
+    "SQuAD",
+    "Gemma Scope",
+    "LLaMA 3 8B Instruct"
+   ]
+  }
+ }
 }
