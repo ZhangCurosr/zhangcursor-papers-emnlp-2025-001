@@ -4,5 +4,32 @@
  "title": "On-Relation-Specific-Neurons-in-Large-Language-Models",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-11-04 21:08:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b43de3f3-4836-4251-b483-a36a1cc56e84.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b43de3f3-4836-4251-b483-a36a1cc56e84.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:06:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "relation-specific neurons",
+    "mechanistic interpretability",
+    "factual knowledge",
+    "neuron cumulativity",
+    "controlled generation",
+    "multilingual generalization"
+   ],
+   "field": "大语言模型机制可解释性",
+   "innovations": [
+    "首次在LLM中系统识别并验证关系特异性神经元",
+    "揭示神经元的累积性、多功能性与干扰性三大特性",
+    "提出解耦实体与关系影响的统计识别与控制生成验证范式"
+   ],
+   "benchmarks": [
+    "LLaMA-2-7B/13B",
+    "Gemma-7B",
+    "LRE dataset",
+    "12 factual relations"
+   ]
+  }
+ }
 }

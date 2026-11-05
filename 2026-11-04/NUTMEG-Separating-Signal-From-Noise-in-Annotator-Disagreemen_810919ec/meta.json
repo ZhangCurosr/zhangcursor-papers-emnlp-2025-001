@@ -4,5 +4,30 @@
  "title": "NUTMEG-Separating-Signal-From-Noise-in-Annotator-Disagreemen",
  "token": "sk-OncqSKRPE...",
  "created_at": "2026-11-04 21:09:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2a6eacfd-3c92-46b2-898a-def3f825d9d1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2a6eacfd-3c92-46b2-898a-def3f825d9d1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:06:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "annotation aggregation",
+    "annotator disagreement",
+    "Bayesian modeling",
+    "learning from disagreement",
+    "crowdsourcing quality",
+    "subjective NLP"
+   ],
+   "field": "众包标注聚合与分歧建模",
+   "innovations": [
+    "提出NUTMEG贝叶斯模型，通过引入子群体信息同时估计标注者能力和子群体特异性真值，有效分离系统性分歧（信号）与垃圾标注（噪声）",
+    "扩展了传统item-response聚合模型，允许真值因子群体而异，并在合成数据和真实POPQUORN数据集上验证了其优越性",
+    "在下游学习从分歧模型中证明，使用NUTMEG预处理后的标签能显著提升礼貌性检测任务性能"
+   ],
+   "benchmarks": [
+    "POPQUORN (offensiveness, politeness tasks)",
+    "Synthetic Data"
+   ]
+  }
+ }
 }

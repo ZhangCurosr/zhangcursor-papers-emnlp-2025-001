@@ -4,5 +4,30 @@
  "title": "Interpretability-Analysis-of-Arithmetic-In-Context-Learning",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-11-04 21:18:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e4c44113-1596-471b-904e-d8c2bd8bb2a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e4c44113-1596-471b-904e-d8c2bd8bb2a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:06:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机制可解释性",
+    "上下文学习",
+    "算术推理",
+    "激活补丁",
+    "函数向量",
+    "信息流分析"
+   ],
+   "field": "大语言模型可解释性",
+   "innovations": [
+    "首个三操作数算术ICE机制可解释性研究",
+    "发现模式一致性比算术正确性更重要",
+    "证明函数向量可蒸馏ICE模式并恢复零样本性能"
+   ],
+   "benchmarks": [
+    "Arithmetic-20",
+    "Arithmetic-1000"
+   ]
+  }
+ }
 }

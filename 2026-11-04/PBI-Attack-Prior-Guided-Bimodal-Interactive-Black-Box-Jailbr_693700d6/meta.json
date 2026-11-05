@@ -4,5 +4,32 @@
  "title": "PBI-Attack-Prior-Guided-Bimodal-Interactive-Black-Box-Jailbr",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-11-04 21:12:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/05303d29-7286-4070-881d-d9d702bfc559.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/05303d29-7286-4070-881d-d9d702bfc559.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:06:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "越狱攻击",
+    "大视觉语言模型",
+    "黑盒攻击",
+    "双模态对抗",
+    "毒性最大化",
+    "红队测试",
+    "多模态安全"
+   ],
+   "field": "多模态大模型安全与对抗攻击",
+   "innovations": [
+    "先验引导的黑盒双模态交互越狱攻击框架，替代LVLM提取有害特征嵌入图像作为优化起点",
+    "双向跨模态贪心搜索交替优化图文扰动实现毒性最大化",
+    "在6个目标模型（3白盒+3黑盒）上实现SOTA攻击成功率"
+   ],
+   "benchmarks": [
+    "AdvBench",
+    "HEADS",
+    "HarmBench"
+   ]
+  }
+ }
 }

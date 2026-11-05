@@ -4,5 +4,34 @@
  "title": "POSITION-BIAS-MITIGATES-POSITION-BIAS-Mitigate-Position-Bias",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-11-04 21:17:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c80cd97b-1fc4-4ce5-b864-964cc3a4ac73.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c80cd97b-1fc4-4ce5-b864-964cc3a4ac73.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:07:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Position Bias",
+    "Knowledge Distillation",
+    "Long-Context LLM",
+    "Retrieval-Augmented Generation",
+    "Chain-of-Thought"
+   ],
+   "field": "长上下文语言模型",
+   "innovations": [
+    "提出位置间知识蒸馏框架Pos2Distill，用优势位置输出校正不利位置",
+    "发现PB在检索中表现为token-shifting、在推理中表现为thought-shifting",
+    "设计位置感知动态对齐策略实现跨位置均衡训练"
+   ],
+   "benchmarks": [
+    "NQ",
+    "TQA",
+    "WebQ",
+    "KV Retrieval",
+    "HotpotQA",
+    "Musique",
+    "2WikiMulti-HopQA"
+   ]
+  }
+ }
 }
