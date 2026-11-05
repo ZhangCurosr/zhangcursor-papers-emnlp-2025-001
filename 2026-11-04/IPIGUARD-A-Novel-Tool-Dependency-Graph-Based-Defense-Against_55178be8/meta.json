@@ -4,5 +4,27 @@
  "title": "IPIGUARD-A-Novel-Tool-Dependency-Graph-Based-Defense-Against",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-11-04 21:08:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/92f192ec-1bac-452e-9997-e64dd6226771.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/92f192ec-1bac-452e-9997-e64dd6226771.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:52:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Indirect Prompt Injection",
+    "LLM Agents",
+    "Tool Dependency Graph",
+    "Agent Security",
+    "Prompt Injection Defense"
+   ],
+   "field": "LLM Agent 安全与鲁棒性",
+   "innovations": [
+    "提出以 TDG 遍历为核心的执行中心防御范式，从源头阻断恶意工具调用",
+    "设计 Argument Estimation、Node Expansion、Fake Tool Invocation 三个机制解决规划-执行解耦挑战"
+   ],
+   "benchmarks": [
+    "AgentDojo"
+   ]
+  }
+ }
 }

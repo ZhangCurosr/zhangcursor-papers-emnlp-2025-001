@@ -4,5 +4,33 @@
  "title": "ICON-sup-2-sup-Aligning-Large-Language-Models-Using-Self-Syn",
  "token": "sk-bXaG87Ajl...",
  "created_at": "2026-11-04 21:15:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/eb97aabf-7960-4833-945f-0d2c1828ed17.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/eb97aabf-7960-4833-945f-0d2c1828ed17.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:53:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM对齐",
+    "偏好数据合成",
+    "表示工程",
+    "内在控制",
+    "DPO",
+    "自合成数据",
+    "方向向量",
+    "指令筛选"
+   ],
+   "field": "大语言模型对齐与偏好学习",
+   "innovations": [
+    "利用LLM表示空间层间方向向量编码人类偏好准则，实现偏好数据全流程自合成",
+    "双向内在控制在解码时精确生成chosen/rejected响应对，无需多次采样",
+    "基于内在一致性的指令筛选机制，确保合成数据与目标模型的分布匹配"
+   ],
+   "benchmarks": [
+    "AlpacaEval 2.0",
+    "Arena-Hard",
+    "MT-Bench"
+   ]
+  }
+ }
 }

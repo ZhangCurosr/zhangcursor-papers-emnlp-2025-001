@@ -4,5 +4,30 @@
  "title": "Integral-Transformer-Denoising-Attention-Not-Too-Much-Not-To",
  "token": "sk-jny6RLrk9...",
  "created_at": "2026-11-04 21:05:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/62adb411-bdf7-4ae8-b362-a080d936a24a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/62adb411-bdf7-4ae8-b362-a080d936a24a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:53:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自注意力机制",
+    "注意力去噪",
+    "大语言模型",
+    "积分注意力",
+    "rank collapse",
+    "语言模型预训练"
+   ],
+   "field": "Transformer架构改进",
+   "innovations": [
+    "通过logit分布多信号积分实现注意力去噪，避免负权重问题",
+    "发现并验证部分深度去噪策略（top 50% INTG最优）",
+    "建立注意力去噪与rank collapse缓解的关联"
+   ],
+   "benchmarks": [
+    "LM Eval Harness (Winogrande, ARC, HellaSwag, PIQA, OBQA, BoolQ, MMLU)",
+    "LongBench"
+   ]
+  }
+ }
 }

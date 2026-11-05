@@ -4,5 +4,38 @@
  "title": "RAG-Instruct-Boosting-LLMs-with-Diverse-Retrieval-Augmented",
  "token": "sk-pPTU9MbMU...",
  "created_at": "2026-11-04 21:14:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/096eff40-c0b6-4811-96ef-aa7987cd38d6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/096eff40-c0b6-4811-96ef-aa7987cd38d6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:55:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RAG",
+    "检索增强生成",
+    "指令微调",
+    "合成数据",
+    "多跳推理",
+    "LLM鲁棒性"
+   ],
+   "field": "检索增强生成与指令微调",
+   "innovations": [
+    "提出五种RAG范式（r0-r4）系统覆盖查询-文档关系多样性",
+    "引入指令模拟技术融合现有指令数据集风格增强RAG数据多样性",
+    "构建首个全面覆盖多场景多任务的高质量RAG指令数据集"
+   ],
+   "benchmarks": [
+    "TriviaQA",
+    "HotpotQA",
+    "2WikiMultiHopQA",
+    "Musique",
+    "ARC-Challenge",
+    "OpenBookQA",
+    "PopQA",
+    "WebQA",
+    "CFQA",
+    "PubMedQA"
+   ]
+  }
+ }
 }

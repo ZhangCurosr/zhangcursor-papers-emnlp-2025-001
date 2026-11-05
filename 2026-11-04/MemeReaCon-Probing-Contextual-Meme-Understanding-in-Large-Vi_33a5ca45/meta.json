@@ -4,5 +4,28 @@
  "title": "MemeReaCon-Probing-Contextual-Meme-Understanding-in-Large-Vi",
  "token": "sk-40JBdijp9...",
  "created_at": "2026-11-04 21:21:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ffa25f1e-fb71-47df-a9a8-b8cd90b494ad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ffa25f1e-fb71-47df-a9a8-b8cd90b494ad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:53:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "迷因理解",
+    "大视觉语言模型",
+    "多模态基准",
+    "上下文推理",
+    "社交媒体分析"
+   ],
+   "field": "多模态理解与社交媒体分析",
+   "innovations": [
+    "提出首个保留完整帖子上下文的迷因理解基准MemeReaCon，包含1,565条标注实例",
+    "首次识别并定义上下文-迷因互动的两种关系模式（CEM/MEC）及评论情感一致性维度",
+    "全面评估揭示LVLMs在上下文整合方面的根本性缺陷，生成任务性能远低于分类任务"
+   ],
+   "benchmarks": [
+    "MemeReaCon"
+   ]
+  }
+ }
 }

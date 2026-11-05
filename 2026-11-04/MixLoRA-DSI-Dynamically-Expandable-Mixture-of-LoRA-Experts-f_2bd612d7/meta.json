@@ -4,5 +4,32 @@
  "title": "MixLoRA-DSI-Dynamically-Expandable-Mixture-of-LoRA-Experts-f",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-11-04 21:04:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/59a66aaa-5ab6-46eb-96a5-2a883d820ee3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/59a66aaa-5ab6-46eb-96a5-2a883d820ee3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:54:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Generative Retrieval",
+    "Continual Learning",
+    "Mixture of Experts",
+    "LoRA",
+    "Document Identifier",
+    "Out-of-Distribution Detection",
+    "Parameter-Efficient Fine-tuning"
+   ],
+   "field": "生成式信息检索与持续学习",
+   "innovations": [
+    "基于能量分数 OOD 判定的层粒度 MoE 动态扩展机制，实现亚线性参数增长",
+    "用余弦分类器路由与双项辅助损失替代原始 softmax 路由器，缓解近因偏差",
+    "面向 RQ-based docids 的 segmented mask 与慢学习器 KL 正则化持续学习策略"
+   ],
+   "benchmarks": [
+    "NQ320k",
+    "MS MARCO Passage",
+    "LongEval"
+   ]
+  }
+ }
 }

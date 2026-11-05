@@ -4,5 +4,34 @@
  "title": "MathTutorBench-A-Benchmark-for-Measuring-Open-ended-Pedagogi",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-11-04 21:11:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/625312a3-3b07-40e0-809f-9f2b84de266f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/625312a3-3b07-40e0-809f-9f2b84de266f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:53:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Educational AI",
+    "LLM Tutoring",
+    "Pedagogical Evaluation",
+    "Reward Model",
+    "Socratic Questioning",
+    "Math Tutoring Benchmark"
+   ],
+   "field": "教育人工智能与大模型评测",
+   "innovations": [
+    "提出MathTutorBench综合基准评估LLM导师三大能力维度",
+    "训练pedagogical reward model实现教学回答质量自动评分",
+    "揭示专业能力与教学能力的trade-off关系"
+   ],
+   "benchmarks": [
+    "MathTutorBench",
+    "GSM8k",
+    "Bridge",
+    "MathDial",
+    "StepVerify",
+    "MRBench"
+   ]
+  }
+ }
 }

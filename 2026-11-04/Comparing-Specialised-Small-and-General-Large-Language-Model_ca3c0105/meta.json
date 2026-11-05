@@ -4,5 +4,35 @@
  "title": "Comparing-Specialised-Small-and-General-Large-Language-Model",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-11-04 21:04:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/84d1573c-71e1-487a-975c-f86532574aa4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/84d1573c-71e1-487a-975c-f86532574aa4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:52:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "break-even point",
+    "few-shot learning",
+    "instruction tuning",
+    "fine-tuning",
+    "in-context learning",
+    "performance variance",
+    "data efficiency"
+   ],
+   "field": "低资源自然语言处理",
+   "innovations": [
+    "提出平均和平均+方差两层break-even点定义，系统量化小模型超越大模型所需的标注样本数",
+    "在8模型×8数据集上统一比较fine-tuning/instruction-tuning/prompting/ICL四类方法并首次引入方差感知的性能比较",
+    "系统评估4-bit量化对大模型prompting和ICL性能与方差的 negligible 影响"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "SuperGLUE",
+    "AG News",
+    "TREC",
+    "SNIPS",
+    "DBPedia"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Router-Tuning-A-Simple-and-Effective-Approach-for-Dynamic-De",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-11-04 21:24:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a5fa14bb-24ce-4bd5-82de-9ddfae17e8b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a5fa14bb-24ce-4bd5-82de-9ddfae17e8b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:57:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Dynamic Depth",
+    "Mixture of Depths",
+    "Router-Tuning",
+    "Model Compression",
+    "Efficient Inference",
+    "Attention Skipping",
+    "MoE Compression",
+    "Parameter-Efficient Fine-Tuning"
+   ],
+   "field": "大语言模型高效推理",
+   "innovations": [
+    "仅微调轻量级路由器（<0.01%参数）实现动态深度，训练成本降低三个数量级",
+    "系统验证 Attention 层最适合动态跳过，同时节省计算与 KV Cache 内存",
+    "将 Router-Tuning 扩展至 MoE 专家级别动态跳过，并与 LoRA 等 PEFT 方法兼容"
+   ],
+   "benchmarks": [
+    "LM-Harness (MMLU, GSM8K, HellaSwag, ARC-C 等)",
+    "Llama-3-8B / Llama-2-13B / Mistral-7B / Qwen-2.5-14B / DeepSeek-MoE / OLMoE"
+   ]
+  }
+ }
 }

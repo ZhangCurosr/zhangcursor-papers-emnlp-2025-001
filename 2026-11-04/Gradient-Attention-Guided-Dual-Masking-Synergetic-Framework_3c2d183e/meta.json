@@ -4,5 +4,30 @@
  "title": "Gradient-Attention-Guided-Dual-Masking-Synergetic-Framework",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-11-04 21:12:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/70361c91-ae36-48a3-903b-3878207adc7f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/70361c91-ae36-48a3-903b-3878207adc7f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:52:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "text-based person retrieval",
+    "vision-language pretraining",
+    "CLIP",
+    "dual masking",
+    "gradient attention",
+    "WebPerson dataset"
+   ],
+   "field": "文本行人检索",
+   "innovations": [
+    "提出GA-DMS框架，通过梯度-注意力相似度分数实现噪声token自适应掩码和细粒度语义增强",
+    "构建WebPerson数据集，利用MLLM in-context learning从网络大规模爬取5M高质量人物图像-文本对"
+   ],
+   "benchmarks": [
+    "CUHK-PEDES",
+    "ICFG-PEDES",
+    "RSTPReid"
+   ]
+  }
+ }
 }

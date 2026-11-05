@@ -4,5 +4,30 @@
  "title": "MultiMatch-Multihead-Consistency-Regularization-Matching-for",
  "token": "sk-ckT2EzSkF...",
  "created_at": "2026-11-04 21:08:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/72553e6e-0d5a-430a-8e39-5370c0cb6d57.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/72553e6e-0d5a-430a-8e39-5370c0cb6d57.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:54:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "semi-supervised learning",
+    "text classification",
+    "pseudo-labeling",
+    "co-training",
+    "consistency regularization",
+    "class imbalance"
+   ],
+   "field": "半监督文本分类",
+   "innovations": [
+    "提出伪标签加权模块PLWM，将多头一致性投票、自适应该类阈值与APM历史边距三重机制统一",
+    "设计基于共识子集的第5百分位自适应该类APM阈值，降低噪声伪标签通过率",
+    "在USB基准21种方法中Friedman排名第一，高度不平衡设置下平均误差降低3.26%"
+   ],
+   "benchmarks": [
+    "USB (IMDB, AG News, Amazon Review, Yahoo! Answer, Yelp Review)",
+    "CrisisMMD (Multimodal)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "ROT-Enhancing-Table-Reasoning-with-Iterative-Row-Wise-Traver",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-11-04 21:10:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a15c7512-1d07-4f0c-9672-648dbf226322.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a15c7512-1d07-4f0c-9672-648dbf226322.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:55:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Table Reasoning",
+    "Chain-of-Thought",
+    "Row-wise Traversal",
+    "Hallucination Reduction",
+    "Prompting",
+    "Large Language Models"
+   ],
+   "field": "表格推理与提示工程",
+   "innovations": [
+    "提出无需训练的迭代逐行遍历方法ROT，以更低成本替代长链思维",
+    "通过结构化遍历强制模型关注表格内容，显著降低幻觉",
+    "使非推理大模型在表格推理上超越推理大模型，且推理token更少"
+   ],
+   "benchmarks": [
+    "WikiTableQuestions",
+    "HiTab",
+    "TableBench"
+   ]
+  }
+ }
 }
