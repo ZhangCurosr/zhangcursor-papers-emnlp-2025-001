@@ -4,5 +4,31 @@
  "title": "Permutative-Preference-Alignment-from-Listwise-Ranking-of-Hu",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-11-04 21:09:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6e02606e-cbef-4a74-8e45-7ecfbb45d8ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6e02606e-cbef-4a74-8e45-7ecfbb45d8ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:34:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM偏好对齐",
+    "NDCG",
+    "Learning to Rank",
+    "列表式优化",
+    "Direct Preference Optimization",
+    "NeuralSort"
+   ],
+   "field": "大语言模型对齐",
+   "innovations": [
+    "首次将NDCG作为端到端训练目标用于LLM偏好对齐，解决B-T模型在多响应场景下的排序缺陷",
+    "通过NeuralSort+Sinkhorn Scaling实现NDCG的可微分近似，支持直接优化排序质量指标"
+   ],
+   "benchmarks": [
+    "AlpacaEval",
+    "MT-Bench",
+    "ListUltraFeedback",
+    "RewardBench"
+   ]
+  }
+ }
 }
